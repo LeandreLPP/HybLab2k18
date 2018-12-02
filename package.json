@@ -1,0 +1,14 @@
+{
+  "name": "hyblab-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server --port=8383 src"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
