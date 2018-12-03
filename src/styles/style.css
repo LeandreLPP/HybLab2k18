@@ -77,12 +77,12 @@ video {
 
 #s6-bar {
     position: absolute;
-    bottom: 40%;
-    height: 7.4%;
+    bottom: 0%;
+    height: 12.3%;
     width: 100%;
     right: 0;
     z-index: -2;
-    background-color: #FCD9C3; 
+    background-color: #F8D6C4; 
 }
 
 /* SLIDE 7 */
