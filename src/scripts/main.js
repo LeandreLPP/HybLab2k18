@@ -9,11 +9,19 @@ const ws = new WebSlides({
     showIndex: false
   });
 
-function hide(htmlCollection, bool) {
-    var videos = htmlCollection.getElementsByTagName("video");
+function _hide(htmlCollection, bool, tag) {
+    var videos = htmlCollection.getElementsByTagName(tag);
+    console.log(videos);
     for(var i = 0; i < videos.length; i++) {
         videos[i].hidden = bool;
     }
+}
+
+function hide(htmlCollection, bool) {
+    _hide(htmlCollection, bool, "h1");
+    _hide(htmlCollection, bool, "img");
+    _hide(htmlCollection, bool, "div");
+    _hide(htmlCollection, bool, "video");
 }
 
 hide(document, true);

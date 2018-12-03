@@ -68,23 +68,29 @@ video {
     background-color: transparent;
 }
 
-#section-1 {
-    background-image: url("../assets/images/titre.png");
+.s1-img {
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+}
+
+.s1-container-img {
+    display: flex;
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 /* SLIDE 2 */
-#section-2 {
-    background-image: url("../assets/images/intro.jpg");
-    height: 100%;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
+.s2-img {
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
 /* SLIDE 3 */
 #s3-video {
     right: 0;
