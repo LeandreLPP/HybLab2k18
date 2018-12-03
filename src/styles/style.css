@@ -25,9 +25,6 @@ p {
     font-size: 1.5em;
 }
 
-section {
-}
-
 .fa-quote-left,
 .fa-quote-right {
     color: #ED7061;
@@ -66,18 +63,16 @@ video {
 }
 
 /* SLIDE 5 */
-.s5-video {
+#s5-video {
     top: 0;
     left: 0;
-    width: 80%;
+    width: 100%;
 }
 
 /* SLIDE 6 */
 #s6-video {
-    top: 0%;
-    left: 20%;
-    min-height: 60%;
-    height: 60%;
+    bottom: 0;
+    height: 100%;
 }
 
 #s6-bar {
