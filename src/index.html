@@ -62,10 +62,20 @@
             <!----------------------------------------------------------------DIAPO 3------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section id="section3">
+            <section id="section3">                
                 <video autoplay muted loop id="s3-video">
                         <source src="assets/videos/saignee.mp4" type="video/mp4">
                 </video>
+                
+                <audio id="saigneeAudio">
+                    <source src="assets/sounds/saignee.mp3" type="audio/mpeg">
+                </audio>
+
+                <button class="btn btn-lg soundButton" onclick="playSaignee()">
+                    <i class="fas fa-volume-up"></i>
+                </button>
+                
+
                 <div class="s3-content">
                     <h1>Saignée</h1>
                 </div>
@@ -102,8 +112,29 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section id="section5">
-                <h1>Découpe</h1>
-                
+                <video autoplay muted loop id="s5-video">
+                    <source src="assets/videos/decoupe.mp4">
+                </video>
+                <div id="s5-bar"></div>
+                <div class="s5-content">
+                    <div class="col-sm-5 row">
+                        <h1>Découpe</h1>
+                    </div>
+                    <div class="col-sm-8 row">
+                            <h2>Ora preptas ex etum atati</h2>
+                    </div>
+                    <div class="col-sm-8 row">
+                        <div class="col-sm-1">
+                            <i class="fas fa-quote-left text-pink"></i>
+                        </div>
+                        <div class="col-sm-10">
+                            <p class="text-justify"> Ora preptas ex etum atatiis ius, quia illorum autem si omnimpo ribusandae sunt lam, quodit porisit iisimol en- ditibusa dis cusanim initibus, quod expliquiasit lab intu- sandicid quodipsam, idendaeptae commoles in rem velis exerro blatur?Ra venem eicipic toritiis sapieni magnat- quaes volupta vellatur recumquia sunt issi nonse sim que quatus, sametur sit est offictasse sime nime accabore voluptatquid que volupta vendestem latus etur sit ut vid magnatur sit rerum rem. Itae dolest, nus dolor sequate pellam faciumqui ut et premporehene minulle ndisciam volorendant.Gento exerundaerum fugias aut aceriorae</p>
+                        </div>
+                        <div class="col-sm-1">
+                            <i style="position: absolute; bottom: 0px" class="fas fa-quote-right text-pink"></i>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -113,7 +144,7 @@
             <section id="section6">
                 <div class="offset-sm-6 col-sm-6 row">
                     <div class="col-sm-10 offset-sm-1">
-                        <h1>Evisceration</h1><br/>
+                        <h1>Le repas</h1><br/>
                         <h2>Ora preptas ex etum atati</h2>
                     </div>
                 </div>
