@@ -19,3 +19,10 @@ video {
     min-width: 100%; 
     min-height: 100%;
 }
+
+.content {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
