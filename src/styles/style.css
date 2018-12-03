@@ -80,3 +80,11 @@ video {
     width: 100%;
     padding: 20px;
 }
+
+.soundButton {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-size: 3em;
+}
+
