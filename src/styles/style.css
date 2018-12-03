@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+/* violet : #35293A */
+
 body {
     background: white; 
 }
@@ -17,7 +19,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     color: #ED7061;
 }
 
@@ -47,6 +49,27 @@ p {
 video {
     position: fixed;
     z-index: -1;
+}
+
+/* SLIDE 1 */
+#title1 {
+    font-size: 10em;
+    color: #ED7061;
+    background-color: transparent;
+}
+
+#title2 {
+    font-size: 10em;
+    color: black;
+    background-color: transparent;
+}
+
+#section-1 {
+    background-image: url("../assets/images/titre.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* SLIDE 2 */
