@@ -22,6 +22,8 @@
             <section>
                 <h1 class="text-center" id="title1">LA VIE</h1>
                 <h1 class="text-center" id="title2">EN ROSE</h1>
+
+                <p></p>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -107,44 +109,42 @@
                 <video autoplay muted loop id="s3-video">
                     <source src="assets/videos/arrivee.mp4" type="video/mp4">
                 </video>
+
+                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
             <!----------------------------------------------------------------DIAPO 4------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section>                
-                <div>
-                    <div class="offset-sm-4 col-sm-8 row">
-                        <div class="col-sm-7 offset-sm-1">
-                            <h1>La voix du saigneur :</h1><br/>
-                        </div>
+            <section class="py-0 my-0">                
+                <div class="col-sm-5"> <!-- Texte à gauche sur 1/3 de l'écran -->
+                    <div class="row col-sm-10 offset-sm-1">
+                        <h1>La voix du saigneur :</h1><br/>
                     </div>
-                    <div class="offset-sm-4  col-sm-8 row">
-                        <div class="offset-sm-1 col-sm-10" id="s4-content">
-                            <p class="text-justify font-italic">À la saignée, les ouvriers ouvrent la carotide des porcs étourdis. Ils les vident
-                                de leur sang qui sera récolté pour le boudin. Ceux qui travaillent là souffrent d’une très mauvaise
-                                réputation. Y compris au sein des abattoirs. Pour Sylvain*, “ les gars qui travaillent dans le secteur
-                                sale sont spéciaux. Même moi, je ne parle pas trop avec eux parce qu'ils ont une mentalité bizarre. ”
-                                Pourtant, nous leur avons parlé.</p>
-                        </div>
-                    </div></br>
-                    <div class="offset-sm-5  col-sm-7 row">
+                    <div class="row offset-sm-1 col-sm-10 py-3 my-3" id="s4-content">
+                        <p class="text-justify font-italic compact-text">À la saignée, les ouvriers ouvrent la carotide des porcs étourdis. Ils les vident
+                            de leur sang qui sera récolté pour le boudin. Ceux qui travaillent là souffrent d’une très mauvaise
+                            réputation. Y compris au sein des abattoirs. Pour Sylvain*, “ les gars qui travaillent dans le secteur
+                            sale sont spéciaux. Même moi, je ne parle pas trop avec eux parce qu'ils ont une mentalité bizarre. ”
+                            Pourtant, nous leur avons parlé.</p>
+                    </div>
+                    <div class="row">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
-                        <div class="col-sm-10" id="s4-content">
-                            <p class="text-justify">J’ai travaillé à la saignée, surtout les premières années mais je ne veux plus y
+                        <div class="col" id="s4-content">
+                            <p class="text-justify compact-text pb-2 mb-2">J’ai travaillé à la saignée, surtout les premières années mais je ne veux plus y
                                 travailler... L’humain s’habitue à presque tout mais quand on part en vacances pour trois semaines, 
                                 quand on revient...</p>
-                            <p class="text-justify">J’ai assisté à une éventration, à des tendons coupés, à un couteau entre les deux
+                            <p class="text-justify compact-text pb-2 mb-2">J’ai assisté à une éventration, à des tendons coupés, à un couteau entre les deux
                                 yeux, dans le nez. Mais les accidents sont de moins en moins nombreux.</p>
-                            <p class="text-justify">Le son est surtout métallique. Il y a 90 décibels, mais ce n'est pas compté comme
+                            <p class="text-justify compact-text">Le son est surtout métallique. Il y a 90 décibels, mais ce n'est pas compté comme
                                 de la pénibilité parce qu’on a des bouchons d’oreille moulés. Le sang est omniprésent au début de la
                                 chaîne. À l’abattage, c’est à température ambiante, on ne chauffe pas. Il y a un peu de clim’ l’été.
                                 Mais c’est toujours dans l’humidité avec les jets de lavage au sol et la vapeur pour laver les couteaux.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
                     </div><br/>
-                    <div class="offset-sm-6 col-sm-6 row">
+                    <div class="row">
                         <h3 class="col-sm-8 offset-sm-4">- Christian*, a tout fait en 29 ans à l’abattoir</h3>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                     <source src="assets/videos/saignee.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound.png" onclick="playSaignee()"/>            
+                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>            
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -164,22 +164,39 @@
                 <div>
                     <div class="offset-sm-6 col-sm-6 row">
                         <div class="col-sm-7 offset-sm-1">
-                            <h1>Evisceration</h1><br/>
-                            <h2>Ora preptas ex etum atati</h2>
+                            <h1>Very Bad Tripes</h1><br/>
+                            <h2>Après la saignée, d’autres ouvriers vident les porcs. Sur la chaîne, chacun exécute un ou deux gestes.</h2>
                         </div>
                     </div>
+
                     <div class="offset-sm-6  col-sm-6 row">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s5-content">
-                            <p class="text-justify">Ora preptas ex etum atatiis ius, quia illorum autem si omnimpo ribusandae sunt lam, quodit porisit iisimol enditibusa dis cusanim initibus, quod expliquiasit lab intusandicid quodipsam, idendaeptae commoles in rem velis exerro blatur?Ra venem eicipic toritiis sapieni magnatquaes volupta vellatur recumquia sunt issi nonse sim que quatus, sametur sit est offictasse sime nime accabore voluptatquid que volupta vendestem latus etur sit ut vid magnatur sit rerum rem. Itae dolest, nus dolor sequate pellam faciumqui ut et premporehene minulle ndisciam volorendant.Gento exerundaerum fugias aut aceriorae ped qui odiae modi volorum la quatem velluptatem res</p>
+                            <p class="text-justify">Nous on reçoit tout ce qui est boyaux. C'est à dire la rate, l’estomac, les boyaux menus, les rosettes... On les détache de la bête et après ça part de l'autre côté.  En ce moment, on voit passer 2600 porcs par jour donc c'est une assez grosse cadence à respecter. C'est environ 400 à l'heure. Bien sûr, c'est des gestes répétitifs. C'est difficile. Normalement, on change de poste toutes les semaines. Mais généralement, nous les anciens, on tourne toujours sur les plus difficiles.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Corine*, 9 ans à l’éviscération</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="offset-sm-6  col-sm-6 row">
+                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
+                        <div class="col-sm-10" id="s5-content">
+                            <p class="text-justify">J'en garde un très bon souvenir. On était une super équipe. Les boyaux, ça sent la merde mais je ne crains pas les odeurs. Après c'est vrai que le premier mois a été très compliqué physiquement car il faut que le corps s'y fasse tout simplement. J'ai eu des tendinites aux mains car je faisais toujours le même geste. J'ai passé trois semaines à ne pas dormir la nuit tellement ça me faisait mal . Puis je crois que mon corps s'est habitué.</p>
+                        </div>
+                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Constance* a travaillé 8 mois à la boyauderie avant de devenir assistante maternelle</h3>
+                        </div>
                     </div>
                 </div>
                     
                 <video autoplay muted loop id="s5-video">
                     <source src="assets/videos/evisceration.mp4" type="video/mp4">
                 </video>
+
+                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -190,16 +207,39 @@
                 <div style="position: absolute; bottom: 24px;">
                     <div class="col-sm-8 row">
                         <div class="col-sm-7 offset-sm-1">
-                            <h1>Découpe</h1><br/>
-                            <h2>Ora preptas ex etum atati</h2>
+                            <h1>Couper, Décaler</h1><br/>
+                            <h2>Les ouvriers de découpe reçoivent les demi-porcs refroidis pour les dépiècer.</h2>
                         </div>
                     </div>
                     <div class="col-sm-8 row">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s6-content">
-                            <p class="text-justify">Ora preptas ex etum atatiis ius, quia illorum autem si omnimpo ribusandae sunt lam, quodit porisit iisimol enditibusa dis cusanim initibus, quod expliquiasit lab intusandicid quodipsam, idendaeptae commoles in rem velis exerro blatur?Ra venem eicipic toritiis sapieni magnatquaes volupta vellatur recumquia sunt issi nonse sim que quatus, sametur sit est offictasse sime nime accabore voluptatquid que volupta vendestem latus etur sit ut vid magnatur sit rerum rem. Itae dolest, nus dolor sequate pellam faciumqui ut et premporehene minulle ndisciam volorendant.Gento exerundaerum fugias aut aceriorae ped qui odiae modi volorum la quatem velluptatem res</p>
+                            <p class="text-justify">Je suis en dépièçage, dépièçage jambon. On prépare le produit pour le client. On a que le jambon qui arrive et après on fait un parage. Ca sent la viande la première semaine qu'on arrive. C'est pas forcément désagréable. On n'est pas dans certain secteur comme la boyauderie. On ne voit pas le dehors de toute la journée. On est enfermé.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Arthur*, trois ans et demi dans la découpe</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 row">
+                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
+                        <div class="col-sm-10" id="s6-content">
+                            <p class="text-justify">Il fait 3-4 °C dans l'atelier pour éviter les microbes. On a des sols adaptés, antidérapants car avec le service de nettoyage quelques fois il y a un peu d'eau qui reste au sol. C'est un atelier blanc, bien éclairé avec des néons donc sans lumière naturelle.</p>
+                        </div>
+                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Dylan*, en apprentissage depuis un an et demi à l’abattoir</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 row">
+                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
+                        <div class="col-sm-10" id="s6-content">
+                            <p class="text-justify">C'est assez dur. Là, je suis en arrêt, en chômage professionnel, trois tendinites au bras droit. Et je commence à en avoir au bras gauche. C'est assez dur quand même. Pourtant on fait des échauffements le matin, on s'étire, on fait attention. Le salaire est à peu près là, y a pas de soucis mais le mal physique c'est quand même la principale contrainte que l'on a. Et la fatigue...</p>
+                        </div>
+                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Arthur*</h3>
+                        </div>
                     </div>
                 </div>
                     
@@ -207,6 +247,8 @@
                 <video autoplay muted loop id="s6-video">
                     <source src="assets/videos/decoupe.mp4">
                 </video>
+
+                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -217,22 +259,56 @@
                 <div>
                     <div class="offset-sm-6 col-sm-6 row">
                         <div class="col-sm-7 offset-sm-1">
-                            <h1>Le repas</h1><br/>
-                            <h2>Ora preptas ex etum atati</h2>
+                            <h1>Retour à bon porc</h1><br/>
                         </div>
                     </div>
                     <div class="offset-sm-6  col-sm-6 row">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s7-content">
-                            <p class="text-justify">Ora preptas ex etum atatiis ius, quia illorum autem si omnimpo ribusandae sunt lam, quodit porisit iisimol enditibusa dis cusanim initibus, quod expliquiasit lab intusandicid quodipsam, idendaeptae commoles in rem velis exerro blatur?Ra venem eicipic toritiis sapieni magnatquaes volupta vellatur recumquia sunt issi nonse sim que quatus, sametur sit est offictasse sime nime accabore voluptatquid que volupta vendestem latus etur sit ut vid magnatur sit rerum rem. Itae dolest, nus dolor sequate pellam faciumqui ut et premporehene minulle ndisciam volorendant.Gento exerundaerum fugias aut aceriorae ped qui odiae modi volorum la quatem velluptatem res</p>
+                            <p class="text-justify">Je rentre chez moi, il est 14h. Je me couche une ou deux heures et après je regarde la télé, je mange et je retourne me coucher. C'est comme ça toute la semaine.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Arthur*</h3>
+                        </div>
+                    </div>
+                    <div class="offset-sm-6  col-sm-6 row">
+                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
+                        <div class="col-sm-10" id="s7-content">
+                            <p class="text-justify">Ce n'est pas un travail qui me plaît. C'est un travail qui me fait vivre. Je parle rarement de mon travail autour de moi. Ce n'est pas moi qui engagerais la conversation dessus. C'est un peu répugnant pour les gens.</p>
+                        </div>
+                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Corine*</h3>
+                        </div>
+                    </div>
+                    <div class="offset-sm-6  col-sm-6 row">
+                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
+                        <div class="col-sm-10" id="s7-content">
+                            <p class="text-justify">On nous tue à force de nous ignorer. Notre travail n’est pas du tout reconnu. On en rêve, on a des images, l’odeur et la cadence qui reviennent, psychologiquement c’est difficile. Moi j’ai pris des cachets pour dormir. Quand ils partent en retraite, tous mes collègues ont une pathologie. J’ai deux enfants et je voulais qu’ils fassent tout, sauf ça. Surtout pas travailler à l’abattoir.</p>
+                        </div>
+                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Christian*</h3>
+                        </div>
+                    </div>
+                    <div class="offset-sm-6  col-sm-6 row">
+                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
+                        <div class="col-sm-10" id="s7-content">
+                            <p class="text-justify">Je parle de mon travail autour de moi. Tous mes voisins le savent. Ils me disent : "Oh les pauvres animaux machin !". Je leur réponds : "Oui mais bon, il faut bien que tu en manges!" Après je leur dis, ça c'est ce qu'ils nous font voir à la télé. Il ne faut pas mettre tous les abattoirs dans le même panier, ou tous les employés d'abattoirs dans le même sac. On n’est pas tous des enculés !</p>
+                        </div>
+                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <div class="col-sm-6 row">
+                            <h3 class="col-sm-8 offset-sm-4">- Sylvain*</h3>
+                        </div>
                     </div>
                 </div>
                     
                 <video autoplay muted loop id="s7-video">
                     <source src="assets/videos/repas.mp4" type="video/mp4">
                 </video>
+
+                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
