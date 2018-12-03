@@ -71,6 +71,7 @@ video {
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
+    z-index: -1;
 }
 
 .s6-content {
@@ -78,4 +79,32 @@ video {
     bottom: 0;
     width: 100%;
     padding: 20px;
+}
+
+#s5-video-container {
+    min-width: 100%;
+}
+
+#s5-video {
+    position: absolute;
+    top: 0%;
+    min-height: 60%;
+    height: 60%;
+    width: auto;
+    padding: center;
+}
+
+#s5-bar {
+    position: absolute;
+    bottom: 40%;
+    height: 7.4%;
+    width: 100%;
+    right: 0;
+    z-index: -2;
+    background-color: #FCD9C3; 
+}
+
+.s5-content {
+    position: absolute;
+    top: 65%;
 }
