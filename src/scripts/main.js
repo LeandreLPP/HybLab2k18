@@ -24,6 +24,19 @@ ws.slides.forEach(slide => {
   }
 });
 
+function playSound(){
+  for(var i = 3; i < 8; i++){
+    var video = document.getElementById("s" + i + "-video");
+    if(video.muted){
+        video.muted = false;
+        console.log("unmuted");
+    }else {
+        video.muted = true;
+        console.log("muted");
+    }
+  }
+}
+
 // Show back previous slide video after it as been hidden
 // ws.el.addEventListener('ws:slide-change', function(e) {
 //   var num = e.detail.currentSlide0;
