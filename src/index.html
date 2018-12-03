@@ -20,6 +20,11 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section>
+                <div class="s1-container-img">
+                    <div style="flex: 1"></div>
+                    <img src="assets/images/titre.png" class="s1-img" />
+                    <div style="flex: 1"></div>
+                </div>
                 <h1 class="text-center" id="title1">LA VIE</h1>
                 <h1 class="text-center" id="title2">EN ROSE</h1>
 
@@ -31,6 +36,7 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section>
+                <img src="assets/images/intro.jpg" class="s2-img" />
                 <div>
                     <div class="offset-sm-6 col-sm-6 row">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
@@ -96,15 +102,11 @@
 
                     <div class="col-sm-6 row">
                         <div class="col-sm-4 offset-sm-2">
-                            <video muted loop controls id="s3-data1">
-                                <source src="assets/data/3_horaire1.mp4" type="video/mp4"/>
-                            </video>
+                            <img src="assets/gifs/6_nombre_cochon.gif" width="100%"/>
                             <h4 class="text-center">Taux de salarié ayant eu à se lever tôt (avant 5h du matin)</h4>
                         </div>
                         <div class="col-sm-4 offset-sm-1">
-                            <video muted loop controls id="s3-data2">
-                                <source src="assets/data/3_horaire2.mp4" type="video/mp4"/>
-                            </video>
+                            <img src="assets/gifs/6_nombre_cochon.gif" width="100%"/>
                             <h4 class="text-center">Taux de salarié ayant eu des horaires d'alternant</h4>
                         </div>
                     </div>
@@ -114,7 +116,7 @@
                     <source src="assets/videos/arrivee.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
+                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -123,8 +125,8 @@
 
             <section class="py-0 my-0">  
                 <div class="row">
-                    <div class="col-sm-5">
-                        <div class="row col-sm-10 offset-sm-1 px-0">
+                    <div class="col-sm-5 row">
+                        <div class="col-sm-7 offset-sm-1 px-0">
                             <h1>La voix du saigneur :</h1><br/>
                         </div>
                         <div class="row offset-sm-1 col-sm-10 px-0 py-3 my-3" id="s4-content">
@@ -156,7 +158,7 @@
     
                     <div class="col-sm-7 row">
                         <div class="col-sm-4 offset-sm-1">
-                            <img src="assets/gifs/4_geste.gif" width="100%"/>
+                            <img src="assets/gifs/6_nombre_cochon" width="100%"/>
                             <h4 class="text-center">Gestes répétitifs à l'intensité jugée forte</h4>
                         </div>
                         <div class="col-sm-4 offset-sm-1">
@@ -170,7 +172,7 @@
                     <source src="assets/videos/saignee.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>            
+                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>            
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -178,34 +180,28 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section>
-                <div>
-                    <div class="row">
-                        <div class="col-sm-7 offset-sm-1">
-                            <h1>Very Bad Tripes</h1><br/>
-                            <h2>Après la saignée, d’autres ouvriers vident les porcs. Sur la chaîne, chacun exécute un ou deux gestes.</h2>
-                        </div>
+                <div class="offset-sm-4 col-sm-6 row">
+                    <div class="col-sm-7 offset-sm-1 px-0">
+                        <h1>Very Bad Tripes</h1><br/>
                     </div>
-
+                    <div class="row offset-sm-1 col-sm-10 px-0">
+                        <p class="text-justify font-italic compact-text">Après la saignée, d’autres ouvriers vident les porcs. Sur la chaîne, chacun exécute un ou deux gestes.</p>
+                    </div>
+                    <div class="row py-3 my-3">
+                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
+                        <div class="col-sm-10" id="s5-content">
+                            <p class="text-justify compact-text">Nous on reçoit tout ce qui est boyaux. C'est à dire la rate, l’estomac, les boyaux menus, les rosettes... On les détache de la bête et après ça part de l'autre côté.  En ce moment, on voit passer 2600 porcs par jour donc c'est une assez grosse cadence à respecter. C'est environ 400 à l'heure. Bien sûr, c'est des gestes répétitifs. C'est difficile. Normalement, on change de poste toutes les semaines. Mais généralement, nous les anciens, on tourne toujours sur les plus difficiles.</p>
+                        </div>
+                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
+                        <h3 class="offset-sm-2 col-sm-10">- Corine*, 9 ans à l’éviscération</h3>
+                    </div>
                     <div class="row">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s5-content">
-                            <p class="text-justify">Nous on reçoit tout ce qui est boyaux. C'est à dire la rate, l’estomac, les boyaux menus, les rosettes... On les détache de la bête et après ça part de l'autre côté.  En ce moment, on voit passer 2600 porcs par jour donc c'est une assez grosse cadence à respecter. C'est environ 400 à l'heure. Bien sûr, c'est des gestes répétitifs. C'est difficile. Normalement, on change de poste toutes les semaines. Mais généralement, nous les anciens, on tourne toujours sur les plus difficiles.</p>
+                            <p class="text-justify compact-text">J'en garde un très bon souvenir. On était une super équipe. Les boyaux, ça sent la merde mais je ne crains pas les odeurs. Après c'est vrai que le premier mois a été très compliqué physiquement car il faut que le corps s'y fasse tout simplement. J'ai eu des tendinites aux mains car je faisais toujours le même geste. J'ai passé trois semaines à ne pas dormir la nuit tellement ça me faisait mal . Puis je crois que mon corps s'est habitué.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
-                        <div class="col-sm-6 row">
-                            <h3 class="col-sm-8 offset-sm-4">- Corine*, 9 ans à l’éviscération</h3>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
-                        <div class="col-sm-10" id="s5-content">
-                            <p class="text-justify">J'en garde un très bon souvenir. On était une super équipe. Les boyaux, ça sent la merde mais je ne crains pas les odeurs. Après c'est vrai que le premier mois a été très compliqué physiquement car il faut que le corps s'y fasse tout simplement. J'ai eu des tendinites aux mains car je faisais toujours le même geste. J'ai passé trois semaines à ne pas dormir la nuit tellement ça me faisait mal . Puis je crois que mon corps s'est habitué.</p>
-                        </div>
-                        <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
-                        <div class="col-sm-6 row">
-                            <h3 class="col-sm-8 offset-sm-4">- Constance* a travaillé 8 mois à la boyauderie avant de devenir assistante maternelle</h3>
-                        </div>
+                        <h3 class="offset-sm-2 col-sm-10">- Constance* a travaillé 8 mois à la boyauderie avant de devenir assistante maternelle</h3>
                     </div>
                 </div>
                     
@@ -213,7 +209,7 @@
                     <source src="assets/videos/evisceration.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
+                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -221,51 +217,48 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section>
-                <div style="position: absolute; bottom: 24px;">
-                    <div class="col-sm-8 row">
-                        <div class="col-sm-7 offset-sm-1">
-                            <h1>Couper, Décaler</h1><br/>
-                            <h2>Les ouvriers de découpe reçoivent les demi-porcs refroidis pour les dépiècer.</h2>
-                        </div>
+                <div class="col-sm-6 row">
+                    <div class="col-sm-7 offset-sm-1 px-0">
+                        <h1>Couper, Décaler</h1><br/>
                     </div>
-                    <div class="col-sm-8 row">
+                    <p class="row offset-sm-1 text-justify font-italic compact-text">
+                        Les ouvriers de découpe reçoivent les demi-porcs refroidis pour les dépiècer.
+                    </p>
+                    <div class="row py-2 my-2">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s6-content">
-                            <p class="text-justify">Je suis en dépièçage, dépièçage jambon. On prépare le produit pour le client. On a que le jambon qui arrive et après on fait un parage. Ca sent la viande la première semaine qu'on arrive. C'est pas forcément désagréable. On n'est pas dans certain secteur comme la boyauderie. On ne voit pas le dehors de toute la journée. On est enfermé.</p>
+                            <p class="text-justify compact-text">Je suis en dépièçage, dépièçage jambon. On prépare le produit pour le client. On a que le jambon qui arrive et après on fait un parage. Ca sent la viande la première semaine qu'on arrive. C'est pas forcément désagréable. On n'est pas dans certain secteur comme la boyauderie. On ne voit pas le dehors de toute la journée. On est enfermé.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
-                        <div class="col-sm-6 row">
-                            <h3 class="col-sm-8 offset-sm-4">- Arthur*, trois ans et demi dans la découpe</h3>
-                        </div>
+                        <h3 class="col-sm-10 offset-sm-2">- Arthur*, trois ans et demi dans la découpe</h3>
                     </div>
-                    <div class="col-sm-8 row">
+                    <div class="row py-2 my-2">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s6-content">
-                            <p class="text-justify">Il fait 3-4 °C dans l'atelier pour éviter les microbes. On a des sols adaptés, antidérapants car avec le service de nettoyage quelques fois il y a un peu d'eau qui reste au sol. C'est un atelier blanc, bien éclairé avec des néons donc sans lumière naturelle.</p>
+                            <p class="text-justify compact-text">Il fait 3-4 °C dans l'atelier pour éviter les microbes. On a des sols adaptés, antidérapants car avec le service de nettoyage quelques fois il y a un peu d'eau qui reste au sol. C'est un atelier blanc, bien éclairé avec des néons donc sans lumière naturelle.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
-                        <div class="col-sm-6 row">
-                            <h3 class="col-sm-8 offset-sm-4">- Dylan*, en apprentissage depuis un an et demi à l’abattoir</h3>
-                        </div>
+                        <h3 class="col-sm-10 offset-sm-2">- Dylan*, en apprentissage depuis un an et demi à l’abattoir</h3>
                     </div>
-                    <div class="col-sm-8 row">
+                    <div class="row py-2 my-2">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s6-content">
-                            <p class="text-justify">C'est assez dur. Là, je suis en arrêt, en chômage professionnel, trois tendinites au bras droit. Et je commence à en avoir au bras gauche. C'est assez dur quand même. Pourtant on fait des échauffements le matin, on s'étire, on fait attention. Le salaire est à peu près là, y a pas de soucis mais le mal physique c'est quand même la principale contrainte que l'on a. Et la fatigue...</p>
+                            <p class="text-justify compact-text">C'est assez dur. Là, je suis en arrêt, en chômage professionnel, trois tendinites au bras droit. Et je commence à en avoir au bras gauche. C'est assez dur quand même. Pourtant on fait des échauffements le matin, on s'étire, on fait attention. Le salaire est à peu près là, y a pas de soucis mais le mal physique c'est quand même la principale contrainte que l'on a. Et la fatigue...</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
-                        <div class="col-sm-6 row">
-                            <h3 class="col-sm-8 offset-sm-4">- Arthur*</h3>
-                        </div>
+                        <h3 class="col-sm-10 offset-sm-2">- Arthur*</h3>
+                    </div>
+                    <div class="col-sm-6 offset-sm-3">
+                        <img src="assets/gifs/6_nombre_cochon.gif" width="100%"/>
+                        <h4 class="text-center">Un ouvrier à la chaîne traite en moyenne 700 porcs par heure</h4>
                     </div>
                 </div>
                     
-                <div id="s6-bar"></div>
                 <video autoplay muted loop id="s6-video">
                     <source src="assets/videos/decoupe.mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
+                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -275,12 +268,12 @@
             <section>
                 <div class="row">
                     <div class="col-sm-5">
-                        <div class="offset-sm-1 row">
+                        <div class="row">
                             <div class="col-sm-7 offset-sm-1">
                                 <h1>Retour à bon porc</h1><br/>
                             </div>
                         </div>
-                        <div class="offset-sm-1 row">
+                        <div class="row">
                             <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                             <div class="col-sm-10" id="s7-content">
                                 <p class="text-justify">Je rentre chez moi, il est 14h. Je me couche une ou deux heures et après je regarde la télé, je mange et je retourne me coucher. C'est comme ça toute la semaine.</p>
@@ -290,7 +283,7 @@
                                 <h3 class="col-sm-8 offset-sm-4">- Arthur*</h3>
                             </div>
                         </div>
-                        <div class="offset-sm-1 row">
+                        <div class="row">
                             <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                             <div class="col-sm-10" id="s7-content">
                                 <p class="text-justify">Ce n'est pas un travail qui me plaît. C'est un travail qui me fait vivre. Je parle rarement de mon travail autour de moi. Ce n'est pas moi qui engagerais la conversation dessus. C'est un peu répugnant pour les gens.</p>
@@ -300,7 +293,7 @@
                                 <h3 class="col-sm-8 offset-sm-4">- Corine*</h3>
                             </div>
                         </div>
-                        <div class="offset-sm-1 row">
+                        <div class="row">
                             <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                             <div class="col-sm-10" id="s7-content">
                                 <p class="text-justify">On nous tue à force de nous ignorer. Notre travail n’est pas du tout reconnu. On en rêve, on a des images, l’odeur et la cadence qui reviennent, psychologiquement c’est difficile. Moi j’ai pris des cachets pour dormir. Quand ils partent en retraite, tous mes collègues ont une pathologie. J’ai deux enfants et je voulais qu’ils fassent tout, sauf ça. Surtout pas travailler à l’abattoir.</p>
@@ -310,7 +303,7 @@
                                 <h3 class="col-sm-8 offset-sm-4">- Christian*</h3>
                             </div>
                         </div>
-                        <div class="offset-sm-1 row">
+                        <div class="row">
                             <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                             <div class="col-sm-10" id="s7-content">
                                 <p class="text-justify">Je parle de mon travail autour de moi. Tous mes voisins le savent. Ils me disent : "Oh les pauvres animaux machin !". Je leur réponds : "Oui mais bon, il faut bien que tu en manges!" Après je leur dis, ça c'est ce qu'ils nous font voir à la télé. Il ne faut pas mettre tous les abattoirs dans le même panier, ou tous les employés d'abattoirs dans le même sac. On n’est pas tous des enculés !</p>
@@ -339,7 +332,7 @@
                     <source src="assets/videos/repas.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound.png" onclick="playSound()"/>
+                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
