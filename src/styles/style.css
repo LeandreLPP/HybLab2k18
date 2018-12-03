@@ -90,7 +90,7 @@ video {
 
 /* SLIDE 4 */
 #s4-video {
-    left: -20%;
+    left: -40%;
     bottom: 0;
     width: 100%;
 }
@@ -128,7 +128,10 @@ video {
 /* SOUND BUTTON */
 .soundButton {
     position: fixed;
-    right: 10px;
-    top: 10px;
-    font-size: 3em;
+    right: 20px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
 }
+
+
