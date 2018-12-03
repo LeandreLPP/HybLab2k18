@@ -108,8 +108,9 @@ video {
 
 /* SLIDE 6 */
 #s6-video {
+    right: -35%;
     bottom: 0;
-    height: 100%;
+    width: 90%;
 }
 
 #s6-bar {
