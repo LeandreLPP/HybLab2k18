@@ -10,7 +10,10 @@ h1, h2, h3 {
 }
 
 h1 {
+    color: white;
+    background-color: #ED7061;
     font-size: 3em;
+    padding: 8px;
 }
 
 h2 {
@@ -22,20 +25,16 @@ p {
     font-size: 1.5em;
 }
 
-.text-pink {
+.fa-quote-left,
+.fa-quote-right {
     color: #ED7061;
+    font-size: 5em;
 }
 
-.bg-pink {
-    background-color: #ED7061;
-}
-
-.text-white {
-    color: white;
-}
-
-.bg-white {
-    background-color: white;
+.fa-quote-right {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 video {
