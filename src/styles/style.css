@@ -12,7 +12,7 @@ h1, h2, h3 {
     background: #ED7061 !important;
 }
 
-video { 
+#s4-video {
     position: fixed;
     right: 0;
     bottom: 0;
@@ -20,7 +20,7 @@ video {
     min-height: 100%;
 }
 
-.s2-content {
+.s4-content {
     position: fixed;
     bottom: 0;
     width: 100%;
