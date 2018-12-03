@@ -9,25 +9,28 @@ const ws = new WebSlides({
     showIndex: false
   });
 
-var videos = document.getElementsByTagName("video");
-for(var i = 0; i < videos.length; i++) {
-  videos[i].hidden = true;
+function hide(htmlCollection, bool) {
+    var videos = htmlCollection.getElementsByTagName("video");
+    for(var i = 0; i < videos.length; i++) {
+        videos[i].hidden = bool;
+    }
 }
+
+hide(document, true);
+ws.slides.forEach(element => {
+    if(element.el.attributes.class.value.includes("current")) {
+        hide(element.el, false);
+    }
+});
 
 // Show back previous slide video after it as been hidden
 ws.el.addEventListener('ws:slide-change', function(e) {
-  var videos = document.getElementsByTagName("video");
-  for(var i = 0; i < videos.length; i++) {
-    videos[i].hidden = true;
-  }
-  var num = e.detail.currentSlide;
-  var section = document.getElementById("section-" + num);
-  if(section !== null){
-    var video = section.getElementsByTagName("video")[0];
-    if(video !== undefined){
-      video.hidden = false;
+    hide(document, true);
+    var num = e.detail.currentSlide;
+    var section = document.getElementById("section-" + num);
+    if(section !== undefined){
+        hide(section, false);
     }
-  }
 });
 
 function playSound(){
