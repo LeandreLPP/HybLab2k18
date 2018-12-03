@@ -42,14 +42,29 @@ ws.el.addEventListener('ws:slide-change', function(e) {
 });
 
 function playSound(){
-    for(var i = 3; i < 8; i++){
-        var video = document.getElementById("s" + i + "-video");
-        if(video.muted){
-            video.muted = false;
-            console.log("unmuted");
-        } else {
-            video.muted = true;
-            console.log("muted");
-        }
+  muted = false;
+  for(var i = 3; i < 8; i++){
+    var video = document.getElementById("s" + i + "-video");
+    if(video.muted){
+        video.muted = false;
+        muted = false;
+    }else {
+        video.muted = true;
+        muted = true;
     }
+  }
+  setSoundImage(!muted);
+}
+
+function setSoundImage(bool){
+  var buttons = document.getElementsByClassName("soundButton");
+  if(bool){
+    for(var i = 0; i < buttons.length; i++){
+      buttons[i].src = "assets/images/sound.png";
+    }
+  }else{
+    for(var i = 0; i < buttons.length; i++){
+      buttons[i].src = "assets/images/sound_off.png";
+    }
+  }
 }
