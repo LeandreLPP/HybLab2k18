@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+
+h1, h2, h3 {
+    font-family: 'Walter Turncoat', cursive !important;
+}
+
+.text-pink {
+    color: #ED7061 !important;
+}
+
+.background-pink {
+    background: #ED7061 !important;
+}
