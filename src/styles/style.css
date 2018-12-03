@@ -31,6 +31,12 @@ p {
     font-size: 5em;
 }
 
+.fa-quote-left {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 .fa-quote-right {
     position: absolute;
     bottom: 0;
@@ -107,4 +113,11 @@ video {
 .s5-content {
     position: absolute;
     top: 65%;
+}
+
+.soundButton {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    font-size: 3em;
 }
