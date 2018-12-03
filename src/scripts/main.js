@@ -11,7 +11,6 @@ const ws = new WebSlides({
 
 function _hide(htmlCollection, bool, tag) {
     var videos = htmlCollection.getElementsByTagName(tag);
-    console.log(videos);
     for(var i = 0; i < videos.length; i++) {
         videos[i].hidden = bool;
     }
