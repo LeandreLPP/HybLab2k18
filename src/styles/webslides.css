@@ -50,382 +50,6 @@
   18. Print
   19. Colors
 ----------------------------------------------------------------------------------- */
-
-/*
-=========================================
--1. PERSO
-=========================================
-*/
-
-
-
-
-
-.txt1x1{
-	position: absolute;
-	top:10%;
-	left:42%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt1x2{
-	position: absolute;
-	top:17.5%;
-	left:37%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt1x3{
-	position: absolute;
-	top:35%;
-	left:31%;
-	width:40%;
-}
-
-.txt1x4{
-	position: absolute;
-	text-align:center;
-	top:65%;
-	left:33%;
-	width:35%;
-	font-size:1.5vw;
-	font-weight: bold;
-	color: #AAC0AA;
-}
-
-
-.txt2x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt2x2{
-	position: absolute;
-	top:15%;
-	left:45%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt2x3{
-	position: absolute;
-	top:30%;
-	left:30%;
-	width:40%;
-}
-
-.txt2x4{
-	position: absolute;
-	top:60%;
-	left:30%;
-	width:40%;
-}
-
-.txt3x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt3x2{
-	position: absolute;
-	top:15%;
-	left:45%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt3x3{
-	position: absolute;
-	top:30%;
-	left:30%;
-	width:40%;
-}
-
-.txt3x4{
-	position: absolute;
-	top:60%;
-	left:30%;
-	width:40%;
-}
-
-.txt3x5{
-	position: absolute;
-	left:17.5%;
-	font-size:2.0vw;
-	font-weight: bold;
-
-}
-
-.txt4x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt4x2{
-	position: absolute;
-	top:15%;
-	left:45%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt4x3{
-	position: absolute;
-	top:30%;
-	left:30%;
-	width:40%;
-}
-
-.txt4x4{
-	position: absolute;
-	top:60%;
-	left:30%;
-	width:40%;
-}
-
-.txt5x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt5x2{
-	position: absolute;
-	top:15%;
-	left:45%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt5x3{
-	position: absolute;
-	top:30%;
-	left:30%;
-	width:40%;
-}
-
-.txt6x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt6x2{
-	position: absolute;
-	top:15%;
-	left:45%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt6x3{
-	position: absolute;
-	top:30%;
-	left:30%;
-	width:40%;
-}
-
-.txt6x4{
-	position: absolute;
-	top:60%;
-	left:30%;
-	width:40%;
-}
-
-.txt7x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt7x2{
-	position: absolute;
-	top:15%;
-	left:45%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt7x3{
-	position: absolute;
-	top:30%;
-	left:30%;
-	width:40%;
-}
-
-.txt7x4{
-	position: absolute;
-	top:60%;
-	left:30%;
-	width:40%;
-}
-
-.txt8x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt9x1{
-	position: absolute;
-	top:10%;
-	left:45%;
-	text-align:center;
-	font-size:2.3vw;
-	color: #166088;
-}
-
-.txt9x2{
-	position: absolute;
-	top:15%;
-	left:45%;
-	text-align:center;
-	font-size:3.0vw;
-	font-weight: bold;
-	color: #166088;
-}
-
-.txt9x3{
-	position: absolute;
-	top:30%;
-	left:30%;
-	width:40%;
-}
-
-.txt9x4{
-	position: absolute;
-	top:60%;
-	left:30%;
-	width:40%;
-}
-
-.img1x1{
-	position: absolute;
-	top:80%;
-	left:20%;
-	max-width:90%;
-	height:400px;
-}
-
-.img2x1{
-	position: absolute;
-	top:42%;
-	left:0%;
-	max-width:100%;
-	height:400px;
-}
-
-.img3x1{
-	position: absolute;
-	top:42%;
-	left:0%;
-	max-width:100%;
-	height:400px;
-}
-
-.section1{
-	border-style: solid;
-	border-width: 50px 100px 100px 100px; /*top right bottom left*/
-	border-color:#166088;
-}
-
-.section2{
-	border-style: solid;
-	border-width: 50px 100px 100px 100px; /*top right bottom left*/
-	border-color:#166088;
-}
-
-.section3{
-	border-style: solid;
-	border-width: 50px 100px 100px 100px; /*top right bottom left*/
-	border-color:#166088;
-}
-
-.section4{
-	border-style: solid;
-	border-width: 50px 100px 100px 100px; /*top right bottom left*/
-	border-color:#166088;
-}
-
-.section5{
-	border-style: solid;
-	border-width: 50px 100px 100px 100px; /*top right bottom left*/
-	border-color:#166088;
-}
-
-.section6{
-	border-style: solid;
-	border-width: 50px 100px 100px 100px; /*top right bottom left*/
-	border-color:#166088;
-}
-
-.section7{
-	border-style: solid;
-	border-width: 50px 100px 100px 100px; /*top right bottom left*/
-	border-color:#166088;
-}
-
-.bulle
-{
-	z-index: 3;
-	position: absolute;
-	top: 30%;
-	left: 70%;
-	background-color: #365471;
-	width: 30%;
-	height: 35%;
-	color: white;
-	border-radius: 5vw;
-	display: table;
-	vertical-align: middle;
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-left:20px;
-	padding-right:20px;
-}
-
-
 /*
 =========================================
 0. CSS Reset & Normalize
@@ -743,7 +367,16 @@ webslides.js will add .ws-ready automatically. Don't worry :) -- */
 li li {
   margin-left: 1.6rem; }
 
-
+a,
+a:active,
+a:focus,
+a:visited,
+input:focus,
+textarea:focus,
+button {
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out; }
 
 p a:active {
   position: relative;
@@ -1158,6 +791,7 @@ body {
 
 html,
 body,
+input,
 select,
 textarea {
   font-family: 'Roboto', 'San Francisco', helvetica, arial, sans-serif;
@@ -3037,6 +2671,7 @@ input[type='password'] {
           appearance: none;
   border-radius: 0; }
 
+input,
 button,
 select {
   display: inline-block;
@@ -3110,6 +2745,7 @@ legend {
   text-transform: uppercase;
   width: 100%; }
 
+input:focus,
 textarea:focus,
 select:focus {
   border-width: 1px; }
@@ -4004,20 +3640,50 @@ Browser (Screenshots)
 /*=========================================
 Forms
 =========================================== */
+input,
 textarea {
   background-color: #fafbfc; }
 
-
+input:focus,
 textarea:focus {
   background-color: #fff;
   -webkit-box-shadow: 0 0 5px #51cbee;
           box-shadow: 0 0 5px #51cbee; }
 
+input:focus::-moz-placeholder {
+  color: #ddd; }
 
+input:focus::-webkit-input-placeholder {
+  color: #ddd; }
 
+a.button,
+[class*='badge-'],
+button[type='submit'],
+input {
+  -webkit-box-shadow: 0 10px 16px -8px rgba(0, 20, 80, 0.3);
+          box-shadow: 0 10px 16px -8px rgba(0, 20, 80, 0.3); }
 
+button,
+input,
+select,
+textarea,
+button[type='submit'],
+input[type='submit'],
+.button,
+.button:hover,
+button[type='submit']:hover,
+input[type='submit']:hover {
+  border: 1px solid #44d; }
 
-
+button[type='submit'],
+input[type='submit'],
+.button,
+.button:hover,
+button[type='submit']:hover,
+input[type='submit']:hover {
+  background-color: #44d;
+  color: #fff;
+  text-shadow: 0 1px 0 #123; }
 
 .button:active,
 button[type='submit']:active,
@@ -4062,6 +3728,11 @@ legend {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff; }
 
+/* Inputs/Buttons - hover */
+input:hover,
+select:hover {
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); }
 
 /* App Store Badges */
 [class*='badge-'] {
