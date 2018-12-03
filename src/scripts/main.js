@@ -1,7 +1,7 @@
 const ws = new WebSlides({
-    autoslide: false,
+    autoslide: 3000,
     changeOnClick: false,
-    loop: false,
+    loop: true,
     minWheelDelta: 40,
     navigateOnScroll: true,
     scrollWait: 450,
