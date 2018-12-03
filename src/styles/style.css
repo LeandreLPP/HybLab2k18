@@ -105,7 +105,10 @@ video {
 /* SOUND BUTTON */
 .soundButton {
     position: fixed;
-    right: 10px;
-    top: 10px;
-    font-size: 3em;
+    right: 20px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
 }
+
+
