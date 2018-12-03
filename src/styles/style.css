@@ -20,7 +20,7 @@ video {
     min-height: 100%;
 }
 
-.content {
+.s2-content {
     position: fixed;
     bottom: 0;
     width: 100%;
