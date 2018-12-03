@@ -7,10 +7,9 @@ body {
     background: white; 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Walter Turncoat', cursive !important;
 }
-
 h1 {
     color: white;
     background-color: #ED7061;
@@ -26,6 +25,10 @@ h2 {
 p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
+}
+
+section {
+    padding: 0px !important;
 }
 
 .fa-quote-left,
