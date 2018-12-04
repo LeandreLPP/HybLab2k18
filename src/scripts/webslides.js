@@ -1001,8 +1001,8 @@ var WebSlides = function () {
 
         __WEBPACK_IMPORTED_MODULE_2__utils_dom__["a" /* default */].fireEvent(this.el, 'ws:slide-will-change', {
           slides: this.maxSlide_,
-          currentSlide0: this.currentSlideI_,
-          currentSlide: this.currentSlideI_ + 1
+          currentSlide0: isMovingForward? this.currentSlideI_ + 2: this.currentSlideI_,
+          currentSlide: this.currentSlideI_ + 1,
         });
 
         if (this.currentSlide_ !== null && this.isVertical && (!this.plugins.touch || !this.plugins.touch.isEnabled)) {
