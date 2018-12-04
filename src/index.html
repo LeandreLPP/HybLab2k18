@@ -21,10 +21,11 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section class="p-2 m-4 p-md-4 pb-4 mb-4">
-                <div class="row d-block d-md-none">
-                    <div class="ml-auto"></div>
-                    <div class="m-auto"></div>
-                    <img src="assets/images/Fleche_droite.png" class="img arrow py-2 my-2 mr-auto" onclick="ws.goNext()"/>
+                <div class="py-3 d-flex d-md-none align-bottom" style="min-height: 90vh; flex-direction: column;">
+                    <div style="flex: 1;"></div>
+                    <div class="row">
+                        <i class="offset-6 col-6 fas fa-chevron-right text-center" style="font-size: 5em;" onclick="ws.goNext()"></i>
+                    </div>
                 </div>
             </section>
 
@@ -33,7 +34,7 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section class="p-2 m-4 p-md-4 pb-4 mb-4">
-                <div class="offset-md-6 col-md-6 mt-1 p-4" style="height: 90vh; overflow-x: hidden; overflow-y: scroll">
+                <div class="offset-md-6 col-md-6 mt-1 p-4" style="max-height: 90vh; overflow-x: hidden; overflow-y: scroll">
                     <div class="row">
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                         <div class="col-md-10">
@@ -41,7 +42,7 @@
                         </div>
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                     </div>               
-                    <div class="row py-3 my-3" id="s3-content">
+                    <div class="row py-3 my-3" id="s2-content">
                         <p class="col text-justify" style="font-size: 2em;">Cet extrait d’annonce trouvé sur un site d'offres d'emploi est clair. Pour travailler dans un abattoir,
                                 il faut laisser de côté sa sensibilité. Ces dernières années, l’association L214 a inondé la toile de
                                 nombreuses vidéos pour dénoncer le traitement réservé aux animaux. Au point d’en oublier, peut-être, les
@@ -58,13 +59,10 @@
                             <img id="soundButtonHome" src="assets/images/sound_off.png" onclick="playSound()"/>
                         </p>
                     </div> 
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow py-2 my-2 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow py-2 my-2 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
+                </div>
+                <div class="py-3 d-inline-flex d-md-none row">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
             </section>
 
@@ -121,13 +119,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow py-2 my-2 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow py-2 my-2 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
+                </div>
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
 
                 <video autoplay muted id="s3-video" class="d-none d-md-block">
@@ -199,15 +194,11 @@
                             <h4 class="text-center">Taux de salariés exécutant des gestes peu variés</h4>
                         </div>
                     </div>
-
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow py-2 my-2 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow py-2 my-2 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
-                </div>              
+                </div>    
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
+                </div>          
                     
                 <video autoplay muted loop id="s4-video" class="d-none d-md-block">
                     <source src="assets/videos/saignee.mp4" type="video/mp4">
@@ -257,14 +248,10 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow py-2 my-2 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow py-2 my-2 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
+                </div>
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
                     
                 <video autoplay muted loop id="s5-video" class="d-none d-md-block">
@@ -320,13 +307,10 @@
                     </div>
                 </div>
                     
-                <div class="container d-block d-md-none pt-3">
-                    <div class="row d-flex">
-                        <img src="assets/images/Fleche_gauche.png" class="img arrow py-2 my-2 ml-auto" onclick="ws.goPrev()"/>
-                        <div class="m-auto"></div>
-                        <img src="assets/images/Fleche_droite.png" class="img arrow py-2 my-2 mr-auto" onclick="ws.goNext()"/>
+                <div class="row py-3 d-inline-flex d-md-none">
+                        <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                        <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                     </div>
-                </div>
                     
                 <video autoplay muted loop id="s6-video" class="d-none d-md-block">
                     <source src="assets/videos/decoupe.mp4">
@@ -406,14 +390,11 @@
                             <h4 class="text-center">Filières dans lesquels les salariés sont plus plus touchés par la dépressivité</h4>
                         </div>
                     </div>
+                </div>
 
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow py-2 my-2 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow py-2 my-2 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
                     
                 <video autoplay muted loop id="s7-video" class="d-none d-md-block">
@@ -482,11 +463,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="container d-block d-md-none pt-3">
-                    <div class="row d-flex">
-                        <img src="assets/images/Fleche_gauche.png" class="img arrow py-2 my-2 ml-auto mr-auto" onclick="ws.goPrev()"/>
-                        <div class="m-auto"></div>
-                    </div>
+
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
                 </div>
             </section>
         </article>
