@@ -12,14 +12,22 @@ const ws = new WebSlides({
 function _hide(htmlCollection, bool, tag) {
     var videos = htmlCollection.getElementsByTagName(tag);
     for(var i = 0; i < videos.length; i++) {
-        videos[i].hidden = bool;
+        if(bool) {
+            videos[i].classList.add('force_hiding');
+        } else {
+            videos[i].classList.remove('force_hiding');
+        }
     }
 }
 
 function _hide_gif(htmlCollection, bool, clazz) {
     var videos = htmlCollection.getElementsByClassName(clazz);
     for(var i = 0; i < videos.length; i++) {
-        videos[i].hidden = bool;
+        if(bool) {
+            videos[i].classList.add('force_hiding');
+        } else {
+            videos[i].classList.remove('force_hiding');
+        }
     }
 }
 
