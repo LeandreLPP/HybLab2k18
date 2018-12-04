@@ -20,8 +20,8 @@
             <!----------------------------------------------------------------DIAPO 1------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p-2 m-4 p-md-4">
-                <div class="row d-flex">
+            <section class="p-2 m-4 p-md-4 pb-4 mb-4">
+                <div class="row d-block d-md-none">
                     <div class="ml-auto"></div>
                     <div class="m-auto"></div>
                     <img src="assets/images/Fleche_droite.png" class="img arrow mr-auto" onclick="ws.goNext()"/>
@@ -32,7 +32,7 @@
             <!----------------------------------------------------------------DIAPO 2------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p-2 m-4 p-md-4">
+            <section class="p-2 m-4 p-md-4 pb-4 mb-4">
                 <div class="offset-md-6 col-md-6 mt-1">
                     <div class="row">
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
@@ -58,7 +58,7 @@
                             <img id="soundButtonHome" src="assets/images/sound_off.png" onclick="playSound()"/>
                         </p>
                     </div> 
-                    <div class="container d-block d-md-none">
+                    <div class="container d-block d-md-none pt-3">
                         <div class="row d-flex">
                             <img src="assets/images/Fleche_gauche.png" class="img arrow ml-auto" onclick="ws.goPrev()"/>
                             <div class="m-auto"></div>
@@ -72,7 +72,7 @@
             <!----------------------------------------------------------------DIAPO 3------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p-2 m-4 p-md-4">
+            <section class="p-2 m-4 p-md-4 pb-4 mb-4">
                 <video autoplay muted class="video-mobile d-block d-md-none py-0 my-0">
                     <source src="assets/videos/arrivee.mp4" type="video/mp4">
                 </video>
@@ -95,7 +95,7 @@
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                         </div><br/>
                         <div class="row">
-                            <h3 class="col-md-8 offset-md-4">- Arthur*, trois ans et demi dans la découpe</h3>
+                            <h3 class="col-10 offset-2">- Arthur*, trois ans et demi dans la découpe</h3>
                         </div><br/>
                         <div class="row">
                             <div class="col-md-1  d-none d-md-block"><i class="fas fa-quote-left"></i></div>
@@ -107,7 +107,7 @@
                             <div class="col-md-1  d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                         </div><br/>
                         <div class="row">
-                            <h3 class="col-md-8 offset-md-4">- Christian*, a tout fait en 29 ans à l’abattoir</h3>
+                            <h3 class="col-10 offset-2">- Christian*, a tout fait en 29 ans à l’abattoir</h3>
                         </div><br/><br/>
         
                         <div class="row">
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container d-block d-md-none">
+                    <div class="container d-block d-md-none pt-3">
                         <div class="row d-flex">
                             <img src="assets/images/Fleche_gauche.png" class="img arrow ml-auto" onclick="ws.goPrev()"/>
                             <div class="m-auto"></div>
@@ -141,7 +141,7 @@
             <!----------------------------------------------------------------DIAPO 4------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p-2 m-4 p-md-4">  
+            <section class="p-2 m-4 p-md-4 pb-4 mb-4">  
                 <video autoplay muted class="video-mobile d-block d-md-none py-0 my-0" style="top: -20%;">
                     <source src="assets/videos/saignee.mp4" type="video/mp4">
                 </video>
@@ -178,8 +178,8 @@
                         </div>
                     </div>
     
-                    <div class="col-sm-7 s4-gifcontainer">
-                        <div class="col-sm-4 offset-sm-1">
+                    <div class="col-md-7 s4-gifcontainer d-md-flex d-none">
+                        <div class="col-md-4 offset-md-1">
                             <img src="assets/gifs/4_nombre_cochon.gif" class="gif" width="100%"/>
                             <h4 class="text-center">Un ouvrier à la chaîne traite jusqu'à 700 porcs par heure</h4>
                         </div>
@@ -189,7 +189,18 @@
                         </div>
                     </div>
 
-                    <div class="container d-block d-md-none">
+                    <div class="d-md-none d-block row">
+                        <div class="col-12">
+                            <img src="assets/gifs/4_nombre_cochon.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Un ouvrier à la chaîne traite jusqu'à 700 porcs par heure</h4>
+                        </div>
+                        <div class="col-12">
+                            <img src="assets/gifs/4_repet.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Taux de salariés exécutant des gestes peu variés</h4>
+                        </div>
+                    </div>
+
+                    <div class="container d-block d-md-none pt-3">
                         <div class="row d-flex">
                             <img src="assets/images/Fleche_gauche.png" class="img arrow ml-auto" onclick="ws.goPrev()"/>
                             <div class="m-auto"></div>
@@ -209,38 +220,47 @@
             <!----------------------------------------------------------------DIAPO 5------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p-4 m-4 p-md-4">
+            <section class="p-4 m-4 p-md-4 pb-4 mb-4">
                 <video autoplay muted loop class="video-mobile d-block d-md-none">
                     <source src="assets/videos/evisceration.mp4" type="video/mp4">
                 </video>
                 
                 <div class="row">
-                    <div class="offset-md-4 col-md-6 row">
-                        <div class="col-md-7 offset-md-1 px-0">
-                            <h1>Viscères au poing</h1><br/>
-                        </div>
-                        <div class="row offset-md-1 col-md-10 px-md-0">
-                            <p class="text-justify font-italic">Après la saignée, d’autres ouvriers vident les porcs. Sur la chaîne, chacun exécute un ou deux gestes.</p>
-                        </div>
-                        <div class="row py-3 my-3">
-                            <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
-                            <div class="col-md-10" id="s5-content">
-                                <p class="text-justify">Nous on reçoit tout ce qui est boyaux. C'est à dire la rate, l’estomac, les boyaux menus, les rosettes... On les détache de la bête et après ça part de l'autre côté.  En ce moment, on voit passer 2600 porcs par jour donc c'est une assez grosse cadence à respecter. C'est environ 400 à l'heure. Bien sûr, c'est des gestes répétitifs. C'est difficile. Normalement, on change de poste toutes les semaines. Mais généralement, nous les anciens, on tourne toujours sur les plus difficiles.</p>
+                    <div class="offset-md-4 col-md-6">
+                        <div class="px-0 mx-0">
+                            <div class="col-md-7 offset-md-1 px-0">
+                                <h1>Viscères au poing</h1><br/>
                             </div>
-                            <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
-                            <h3 class="offset-md-2 col-md-10">- Corine*, 9 ans à l’éviscération</h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
-                            <div class="col-md-10" id="s5-content">
-                                <p class="text-justify">J'en garde un très bon souvenir. On était une super équipe. Les boyaux, ça sent la merde mais je ne crains pas les odeurs. Après c'est vrai que le premier mois a été très compliqué physiquement car il faut que le corps s'y fasse tout simplement. J'ai eu des tendinites aux mains car je faisais toujours le même geste. J'ai passé trois semaines à ne pas dormir la nuit tellement ça me faisait mal . Puis je crois que mon corps s'est habitué.</p>
+                            <div class="row offset-md-1 col-md-10 px-md-0">
+                                <p class="text-justify font-italic">Après la saignée, d’autres ouvriers vident les porcs. Sur la chaîne, chacun exécute un ou deux gestes.</p>
                             </div>
-                            <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
-                            <h3 class="offset-md-2 col-md-10">- Constance* a travaillé 8 mois à la boyauderie avant de devenir assistante maternelle</h3>
+                            <div class="row py-3 my-3">
+                                <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
+                                <div class="col-md-10" id="s5-content">
+                                    <p class="text-justify">Nous on reçoit tout ce qui est boyaux. C'est à dire la rate, l’estomac, les boyaux menus, les rosettes... On les détache de la bête et après ça part de l'autre côté.  En ce moment, on voit passer 2600 porcs par jour donc c'est une assez grosse cadence à respecter. C'est environ 400 à l'heure. Bien sûr, c'est des gestes répétitifs. C'est difficile. Normalement, on change de poste toutes les semaines. Mais généralement, nous les anciens, on tourne toujours sur les plus difficiles.</p>
+                                </div>
+                                <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
+                                <h3 class="offset-2 col-10">- Corine*, 9 ans à l’éviscération</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
+                                <div class="col-md-10" id="s5-content">
+                                    <p class="text-justify">J'en garde un très bon souvenir. On était une super équipe. Les boyaux, ça sent la merde mais je ne crains pas les odeurs. Après c'est vrai que le premier mois a été très compliqué physiquement car il faut que le corps s'y fasse tout simplement. J'ai eu des tendinites aux mains car je faisais toujours le même geste. J'ai passé trois semaines à ne pas dormir la nuit tellement ça me faisait mal . Puis je crois que mon corps s'est habitué.</p>
+                                </div>
+                                <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
+                                <h3 class="offset-2 col-10">- Constance* a travaillé 8 mois à la boyauderie avant de devenir assistante maternelle</h3>
+                            </div>
+                            <br/>
+                            <br/>
+                            <br/>
+                            <div class="gif offset-md-8 col-md-4 align-center ">
+                                <img src="assets/gifs/5_absence.gif" class="gif" width="100%"/>
+                                <h4 class="text-center">Jours d'absence cumulés en une année</h4>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="container d-block d-md-none">
+                    <div class="container d-block d-md-none pt-3">
                         <div class="row d-flex">
                             <img src="assets/images/Fleche_gauche.png" class="img arrow ml-auto" onclick="ws.goPrev()"/>
                             <div class="m-auto"></div>
@@ -260,14 +280,14 @@
             <!----------------------------------------------------------------DIAPO 6------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p-2 m-4 p-md-4">
+            <section class="p-2 m-4 p-md-4 pb-4 mb-4">
                 <video autoplay muted loop id="s6-video" class="video-mobile d-block d-md-none">
                     <source src="assets/videos/decoupe.mp4">
                 </video>
 
                 <div class="col-md-6 row px-0 mx-0" style="height: 80vh; overflow-x: hidden; overflow-y: scroll">
                     <div class="col-md-7 offset-md-1 px-0">
-                        <h1>Sur le fil</h1><br/>
+                        <h1>Poste traumatique</h1><br/>
                     </div>
                     <p class="row offset-md-1 text-justify font-italic px-4 px-md-0">
                         Les ouvriers de découpe reçoivent les demi-porcs refroidis pour les dépiècer.
@@ -307,7 +327,7 @@
                     </div>
                 </div>
                     
-                <div class="container d-block d-md-none">
+                <div class="container d-block d-md-none pt-3">
                     <div class="row d-flex">
                         <img src="assets/images/Fleche_gauche.png" class="img arrow ml-auto" onclick="ws.goPrev()"/>
                         <div class="m-auto"></div>
@@ -326,7 +346,7 @@
             <!----------------------------------------------------------------DIAPO 7------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p-2 m-4 p-md-4">
+            <section class="p-2 m-4 p-md-4 pb-4 mb-4">
                 <video autoplay muted loop id="s7-video" class="video-mobile d-block d-md-none">
                     <source src="assets/videos/repas.mp4" type="video/mp4">
                 </video>
@@ -344,7 +364,7 @@
                                 <p class="text-justify">Je rentre chez moi, il est 14h. Je me couche une ou deux heures et après je regarde la télé, je mange et je retourne me coucher. C'est comme ça toute la semaine.</p>
                             </div>
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
-                            <h3 class="col-5 offset-7">- Arthur*</h3>
+                            <h3 class="col-8 offset-5">- Arthur*</h3>
                         </div>
                         <div class="row">
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
@@ -352,7 +372,7 @@
                                 <p class="text-justify">Ce n'est pas un travail qui me plaît. C'est un travail qui me fait vivre. Je parle rarement de mon travail autour de moi. Ce n'est pas moi qui engagerais la conversation dessus. C'est un peu répugnant pour les gens.</p>
                             </div>
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
-                            <h3 class="col-5 offset-7">- Corine*</h3>
+                            <h3 class="col-8 offset-5">- Corine*</h3>
                         </div>
                         <div class="row">
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
@@ -360,7 +380,7 @@
                                 <p class="text-justify">On nous tue à force de nous ignorer. Notre travail n’est pas du tout reconnu. On en rêve, on a des images, l’odeur et la cadence qui reviennent, psychologiquement c’est difficile. Moi j’ai pris des cachets pour dormir. Quand ils partent en retraite, tous mes collègues ont une pathologie. J’ai deux enfants et je voulais qu’ils fassent tout, sauf ça. Surtout pas travailler à l’abattoir.</p>
                             </div>
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
-                            <h3 class="col-5 offset-7">- Christian*</h3>
+                            <h3 class="col-8 offset-5">- Christian*</h3>
                         </div>
                         <div class="row">
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
@@ -368,14 +388,13 @@
                                 <p class="text-justify">Je parle de mon travail autour de moi. Tous mes voisins le savent. Ils me disent : "Oh les pauvres animaux machin !". Je leur réponds : "Oui mais bon, il faut bien que tu en manges!" Après je leur dis, ça c'est ce qu'ils nous font voir à la télé. Il ne faut pas mettre tous les abattoirs dans le même panier, ou tous les employés d'abattoirs dans le même sac. On n’est pas tous des enculés !</p>
                             </div>
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
-                            <h3 class="col-5 offset-7">- Sylvain*</h3>
+                            <h3 class="col-8 offset-5">- Sylvain*</h3>
                         </div>
                     </div>
     
-                    <div class="col-sm-7 s7-gifcontainer">
-                        <div class="col-sm-4 offset-sm-1">
+                    <div class="col-md-7 s7-gifcontainer d-md-flex d-none">
+                        <div class="col-md-4 offset-md-1">
                             <img src="assets/gifs/7_genres.gif" class="gif" width="100%"/>
-                            <img src="assets/gifs/7_age.gif" class="gif" width="100%"/>
                             <h4 class="text-center">Genres et âges des salariés les plus touchés par la dépressivité</h4>
                         </div>
                         <div class="col-md-4 offset-md-1">
@@ -384,7 +403,18 @@
                         </div>
                     </div>
 
-                    <div class="container d-block d-md-none">
+                    <div class="d-md-none d-block row">
+                        <div class="col-12">
+                            <img src="assets/gifs/7_genres.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Genres et âges des salariés les plus touchés par la dépressivité</h4>
+                        </div>
+                        <div class="col-12">
+                            <img src="assets/gifs/7_race.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Filières dans lesquels les salariés sont plus plus touchés par la dépressivité</h4>
+                        </div>
+                    </div>
+
+                    <div class="container d-block d-md-none pt-3">
                         <div class="row d-flex">
                             <img src="assets/images/Fleche_gauche.png" class="img arrow ml-auto" onclick="ws.goPrev()"/>
                             <div class="m-auto"></div>
@@ -404,7 +434,7 @@
             <!----------------------------------------------------------------DIAPO 8------------------------------------------------------------------------------->
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-            <section class="p1 p-md-4">
+            <section class="p1 p-md-4 pb-4 mb-4">
                 <div class="col-md-10 offset-md-1">
                     <div class="row">
                         <div class="col-md-3 my-auto">
@@ -436,29 +466,30 @@
                             <p class="text-right py-3" style="color: white;">
                                                 Ostianne <b>ARMINJON</b><br/>
                                                 Manon <b>BELAÏCHE</b><br/>
+                                                Cyprien <b>CADDEO</b><br/>
                                                 Maxence <b>DETANTE</b><br/>
                                                 Joséphine <b>LASCAULT</b><br/>
                                                 Léandre <b>LE POLLES--POTIN</b><br/>
                                                 William <b>MOUCHÈRE</b><br/>
                                                 Valentin <b>PINEAU</b><br/>
                                                 Antoine <b>PIZON</b><br/>
-                                                Anaïs <b>RIBOD</b><br/>
+                                                Anaïs <b>RIBOT</b><br/>
                                                 Caroline <b>TRAN</b><br/></p>
                         </div>
-                    </div>
+                    </div><br/><br/><br/><br/>
                     <div class="row py-5">
-                        <div class="offset-md-6 col-md-4 my-auto">
+                        <div class="offset-md-6 col-md-4 col-8 my-auto">
                             <img src="assets/logos/ecoles.png"/>
                         </div>
-                        <div class="col-md-1 my-auto py-3">
+                        <div class="col-md-1 col-2 my-auto py-3">
                             <a href="https://creativecommons.org/licenses/by/3.0/fr/"><img src="assets/logos/cc.png"/></a>
                         </div>
-                        <div class="col-md-1 my-auto py-3">
+                        <div class="col-md-1 col-2 my-auto py-3">
                             <a href="https://opensource.org/licenses/MIT"><img src="assets/logos/opensource.png"/></a>
                         </div>
                     </div>
                 </div>
-                <div class="container d-block d-md-none">
+                <div class="container d-block d-md-none pt-3">
                     <div class="row d-flex">
                         <img src="assets/images/Fleche_gauche.png" class="img arrow ml-auto mr-auto" onclick="ws.goPrev()"/>
                         <div class="m-auto"></div>
