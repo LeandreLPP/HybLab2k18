@@ -31,10 +31,6 @@ p {
     line-height: 16pt;
 }
 
-section {
-    padding: 48px !important;
-}
-
 .fa-quote-left,
 .fa-quote-right {
     color: #ED7061;
@@ -59,10 +55,10 @@ video {
 }
 
 .video-mobile {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
 }
 
 .gif {
@@ -102,7 +98,7 @@ video {
 /* SLIDE 2 */
 #section-2 {
     background-image: url("../assets/images/intro.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
 }
