@@ -5,6 +5,8 @@
 
 body {
     background: white; 
+    
+    mix-blend-mode: multiply !important;
 }
 
 h1, h2, h3, h4 {
@@ -33,6 +35,30 @@ section {
     padding: 48px !important;
 }
 
+/* SCROLL BAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* SCROLL BAR */
+
 .fa-quote-left,
 .fa-quote-right {
     color: #ED7061;
@@ -54,6 +80,17 @@ section {
 video {
     position: fixed;
     z-index: -1;
+}
+
+.video-mobile {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.gif {
+    mix-blend-mode: multiply;
 }
 
 /* SLIDE 1 */
@@ -87,16 +124,13 @@ video {
 }
 
 /* SLIDE 2 */
-
-@media(max-width: 768px) {
-    .s2-img {
-        position: fixed;
-        z-index: -1;
-        width: 160%;
-        left: 0;
-        bottom: -10%;
-    }
+#section-2 {
+    background-image: url("../assets/images/intro.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
+
 @media(min-width: 768px) {
     .s2-img {
         position: fixed;
@@ -105,6 +139,10 @@ video {
         left: 0;
         top: 0;
     }
+}
+
+img.arrow {
+    height: 7em;
 }
 
 /* SLIDE 3 */
@@ -125,6 +163,13 @@ video {
     right: -10%;
     bottom: 0;
     width: 80%;
+}
+
+.s4-gifcontainer {
+    position: fixed;
+    top: 5%;
+    right: 0%;
+    display: flex;
 }
 
 /* SLIDE 5 */
@@ -156,6 +201,13 @@ video {
     right: -10%;
     bottom: 0;
     width: 80%;
+}
+
+.s7-gifcontainer {
+    position: fixed;
+    top: 5%;
+    right: 0%;
+    display: flex;
 }
 
 /* SLIDE 8 */
@@ -193,6 +245,12 @@ video {
     position: fixed;
     right: 20px;
     top: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+#soundButtonHome{
+    display: inline;
     height: 50px;
     width: 50px;
 }

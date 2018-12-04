@@ -46,8 +46,8 @@ ws.el.addEventListener('ws:slide-will-change', function(e) {
     var section = document.getElementById("section-" + num);
     if(section !== undefined){
         hide(section, false);
-        _hide_gif(section, true, "gif");
-        setTimeout(function(){ _hide_gif(section, false, "gif"); }, 500);
+        //_hide_gif(section, true, "gif");
+        //setTimeout(function(){ _hide_gif(section, false, "gif"); }, 500);
     }
 });
 
@@ -80,10 +80,12 @@ function setSoundImage(bool){
   if(bool){
     for(var i = 0; i < buttons.length; i++){
       buttons[i].src = "assets/images/sound.png";
+      document.getElementById("soundButtonHome").src = "assets/images/sound.png";
     }
   }else{
     for(var i = 0; i < buttons.length; i++){
       buttons[i].src = "assets/images/sound_off.png";
+      document.getElementById("soundButtonHome").src = "assets/images/sound_off.png";
     }
   }
 }
