@@ -25,6 +25,7 @@ h2 {
 p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
+    line-height: 16pt;
 }
 
 section {
@@ -52,10 +53,6 @@ section {
 video {
     position: fixed;
     z-index: -1;
-}
-
-.compact-text {
-    line-height: 17pt
 }
 
 /* SLIDE 1 */
@@ -153,3 +150,29 @@ video {
     height: 50px;
     width: 50px;
 }
+<<<<<<< HEAD
+=======
+
+#container { display:block; }
+
+@media only screen and (orientation:portrait){
+    #container {
+        height: 100vw;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+
+@media only screen and (orientation:landscape){
+    #container {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+>>>>>>> 887da8227402807ae53d107238fc37c597a95079
