@@ -172,6 +172,12 @@ video {
     color: #ED5343;
 }
 
+#section-8 {
+    background-image: url("../assets/images/remerciement.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* SOUND BUTTON */
 .soundButton {
     position: fixed;

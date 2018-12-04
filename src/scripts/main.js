@@ -31,14 +31,20 @@ ws.slides.forEach(element => {
 });
 
 // Show back previous slide video after it as been hidden
-ws.el.addEventListener('ws:slide-change', function(e) {
+ws.el.addEventListener('ws:slide-will-change', function(e) {
+    //console.log('slide-will-change');
+    //console.log(e.detail);
     hide(document, true);
-    var num = e.detail.currentSlide;
+    var num = e.detail.currentSlide0;
     var section = document.getElementById("section-" + num);
     if(section !== undefined){
         hide(section, false);
     }
 });
+
+// ws.el.addEventListener('ws:slide-change', function(e) {
+//     console.log('slide-change');
+// });
 
 function playSound(){
   muted = false;

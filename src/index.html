@@ -9,7 +9,7 @@
         <!-- Stylesheets here --->
         <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
         <link rel="stylesheet" href="styles/webslides.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="stylesheet" href="styles/style.css"/>
         <link rel="manifest" href="manifest.json">
     </head>
@@ -126,20 +126,20 @@
 
             <section class="py-0 my-0">  
                 <div class="row">
-                    <div class="col-sm-5 row">
-                        <div class="col-sm-7 offset-sm-1 px-0">
-                            <h1>La voix du saigneur :</h1><br/>
+                    <div class="col-sm-5">
+                        <div class="col-sm-7 px-2 offset-sm-1">
+                            <h1>La voix du saigneur:</h1><br/>
                         </div>
-                        <div class="row offset-sm-1 col-sm-10 px-0 py-3 my-3" id="s4-content">
+                        <div class="offset-sm-1 col-sm-10 px-2 py-3 my-3" id="s4-content">
                             <p class="text-justify font-italic compact-text">À la saignée, les ouvriers ouvrent la carotide des porcs étourdis. Ils les vident
                                 de leur sang qui sera récolté pour le boudin. Ceux qui travaillent là souffrent d’une très mauvaise
-                                réputation. Y compris au sein des abattoirs. Pour Sylvain*, “ les gars qui travaillent dans le secteur
-                                sale sont spéciaux. Même moi, je ne parle pas trop avec eux parce qu'ils ont une mentalité bizarre. ”
+                                réputation. Y compris au sein des abattoirs. Pour Sylvain*, “<span style="font-style: normal">les gars qui travaillent dans le secteur
+                                    sale sont spéciaux. Même moi, je ne parle pas trop avec eux parce qu'ils ont une mentalité bizarre.</span>”
                                 Pourtant, nous leur avons parlé.</p>
                         </div>
                         <div class="row">
                             <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
-                            <div class="col" id="s4-content">
+                            <div class="col-sm-10" id="s4-content">
                                 <p class="text-justify compact-text pb-2 mb-2">J’ai travaillé à la saignée, surtout les premières années mais je ne veux plus y
                                     travailler... L’humain s’habitue à presque tout mais quand on part en vacances pour trois semaines, 
                                     quand on revient...</p>
@@ -152,8 +152,8 @@
                             </div>
                             <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
                         </div><br/>
-                        <div class="row">
-                            <h3 class="col-sm-8 offset-sm-4">- Christian*, a tout fait en 29 ans à l’abattoir</h3>
+                        <div class="row col-sm-12">
+                            <h3 class="col-sm-10 offset-sm-2">- Christian*, a tout fait en 29 ans à l’abattoir</h3>
                         </div>
                     </div>
     
@@ -228,7 +228,7 @@
                     <div class="row py-2 my-2">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s6-content">
-                            <p class="text-justify compact-text">Je suis en dépièçage, dépièçage jambon. On prépare le produit pour le client. On a que le jambon qui arrive et après on fait un parage. Ca sent la viande la première semaine qu'on arrive. C'est pas forcément désagréable. On n'est pas dans certain secteur comme la boyauderie. On ne voit pas le dehors de toute la journée. On est enfermé.</p>
+                            <p class="text-justify compact-text">Je suis en dépièçage, dépièçage jambon. On prépare le produit pour le client. On n'a que le jambon qui arrive et après on fait un parage. Ça sent la viande la première semaine qu'on arrive. C'est pas forcément désagréable. On n'est pas dans certain secteur comme la boyauderie. On ne voit pas le dehors de toute la journée. On est enfermé.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
                         <h3 class="col-sm-10 offset-sm-2">- Arthur*, trois ans et demi dans la découpe</h3>
@@ -236,7 +236,7 @@
                     <div class="row py-2 my-2">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s6-content">
-                            <p class="text-justify compact-text">Il fait 3-4 °C dans l'atelier pour éviter les microbes. On a des sols adaptés, antidérapants car avec le service de nettoyage quelques fois il y a un peu d'eau qui reste au sol. C'est un atelier blanc, bien éclairé avec des néons donc sans lumière naturelle.</p>
+                            <p class="text-justify compact-text">Il fait 3-4 °C dans l'atelier pour éviter les microbes. On a des sols adaptés, antidérapants car avec le service de nettoyage, quelques fois, il y a un peu d'eau qui reste au sol. C'est un atelier blanc, bien éclairé avec des néons donc sans lumière naturelle.</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
                         <h3 class="col-sm-10 offset-sm-2">- Dylan*, en apprentissage depuis un an et demi à l’abattoir</h3>
@@ -244,7 +244,7 @@
                     <div class="row py-2 my-2">
                         <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
                         <div class="col-sm-10" id="s6-content">
-                            <p class="text-justify compact-text">C'est assez dur. Là, je suis en arrêt, en chômage professionnel, trois tendinites au bras droit. Et je commence à en avoir au bras gauche. C'est assez dur quand même. Pourtant on fait des échauffements le matin, on s'étire, on fait attention. Le salaire est à peu près là, y a pas de soucis mais le mal physique c'est quand même la principale contrainte que l'on a. Et la fatigue...</p>
+                            <p class="text-justify compact-text">C'est assez dur. Là, je suis en arrêt, en chômage professionnel, trois tendinites au bras droit. Et je commence à en avoir au bras gauche. C'est assez dur quand même. Pourtant on fait des échauffements le matin, on s'étire, on fait attention. Le salaire est à peu près là, il n'y a pas de soucis mais le mal physique c'est quand même la principale contrainte que l'on a. Et la fatigue...</p>
                         </div>
                         <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
                         <h3 class="col-sm-10 offset-sm-2">- Arthur*</h3>
@@ -380,9 +380,10 @@
             </section>
         </article>
 
-        <script src="scripts/webslides.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>    
+        <script src="scripts/webslides.js"></script>
+        <script src="scripts/chart.min.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script src="scripts/font_awesome.js"></script>    
 
         <script src="scripts/main.js"></script>
         <script src="scripts/slide0_intro.js"></script>
