@@ -54,19 +54,9 @@ ws.el.addEventListener('ws:slide-will-change', function(e) {
     var section = document.getElementById("section-" + num);
     if(section !== undefined){
         hide(section, false);
-        //_hide_gif(section, true, "gif");
-        //setTimeout(function(){ _hide_gif(section, false, "gif"); }, 500);
     }
 });
 
-// ws.el.addEventListener('ws:slide-change', function(e) {
-//     console.log('slide-change');
-//     var num = e.detail.currentSlide;
-//     var section = document.getElementById("section-" + num);
-//     if(section !== undefined){
-//         _hide_gif(section, false, "gif");
-//     }
-// });
 
 function playSound(){
   muted = false;
