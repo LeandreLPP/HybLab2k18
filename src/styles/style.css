@@ -207,6 +207,12 @@ video {
     width: 50px;
 }
 
+#soundButtonHome{
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
 #container { display:block; }
 
 @media only screen and (orientation:portrait){
