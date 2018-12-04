@@ -86,6 +86,12 @@ video {
 }
 
 /* SLIDE 2 */
+#section-2 {
+    background-image: url("../assets/images/intro.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
 
 .s2-img {
     position: fixed;
@@ -94,6 +100,7 @@ video {
     left: 0;
     top: 0;
 }
+
 /* SLIDE 3 */
 #s3-video {
     right: 0;
