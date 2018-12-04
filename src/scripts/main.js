@@ -46,8 +46,8 @@ ws.el.addEventListener('ws:slide-will-change', function(e) {
     var section = document.getElementById("section-" + num);
     if(section !== undefined){
         hide(section, false);
-        _hide_gif(section, true, "gif");
-        setTimeout(function(){ _hide_gif(section, false, "gif"); }, 500);
+        //_hide_gif(section, true, "gif");
+        //setTimeout(function(){ _hide_gif(section, false, "gif"); }, 500);
     }
 });
 

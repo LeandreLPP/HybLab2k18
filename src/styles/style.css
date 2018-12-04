@@ -33,6 +33,30 @@ section {
     padding: 48px !important;
 }
 
+/* SCROLL BAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+/* SCROLL BAR */
+
 .fa-quote-left,
 .fa-quote-right {
     color: #ED7061;
@@ -127,6 +151,13 @@ video {
     width: 80%;
 }
 
+.s4-gifcontainer {
+    position: fixed;
+    top: 5%;
+    right: 0%;
+    display: flex;
+}
+
 /* SLIDE 5 */
 #s5-video {
     top: 0;
@@ -156,6 +187,13 @@ video {
     right: -10%;
     bottom: 0;
     width: 80%;
+}
+
+.s7-gifcontainer {
+    position: fixed;
+    top: 5%;
+    right: 0%;
+    display: flex;
 }
 
 /* SLIDE 8 */
