@@ -35,6 +35,10 @@ section {
     padding: 48px !important;
 }
 
+.force_hiding {
+    display: none !important;
+}
+
 /* SCROLL BAR */
 
 /* width */
