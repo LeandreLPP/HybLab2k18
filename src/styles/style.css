@@ -94,11 +94,28 @@ video {
 }
 
 /* SLIDE 1 */
-#section-1 {
-    background-image: url("../assets/images/titre.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center top;
+@media(max-width: 768px) {
+    #section-1 {
+        background-image: url("../assets/images/titre.png");
+        background-size: 130%;
+        background-repeat: no-repeat;
+        background-position: center 30%;
+    }
+}
+
+@media(min-width: 768px) {
+    #section-1 {
+        background-image: url("../assets/images/titre.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
+
+#section-1 .arrow {
+    position: fixed;
+    bottom: 5%;
+    right: 20%;
 }
 
 #title1 {
@@ -124,14 +141,15 @@ video {
 }
 
 /* SLIDE 2 */
-#section-2 {
-    background-image: url("../assets/images/intro.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
-}
 
 @media(min-width: 768px) {
+    #section-2 {
+        background-image: url("../assets/images/intro.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center left;
+    }
+
     .s2-img {
         position: fixed;
         z-index: -1;
@@ -210,15 +228,20 @@ img.arrow {
 }
 
 /* SLIDE 8 */
-#s8-title {
-    background-color: transparent;
-    color: white;
-    font-size: 8em;
+@media(min-width: 768px) {
+    #s8-title {
+        background-color: transparent;
+        color: white;
+        font-size: 8em;
+    }
 }
 
-#s8-sources {
-    font-family: 'Josefin Sans', sans-serif !important;
-    color: #ED5343;
+@media(max-width: 768px) {
+    #s8-title {
+        background-color: transparent;
+        color: white;
+        font-size: 3em;
+    }
 }
 
 #s8-membres {
@@ -226,17 +249,44 @@ img.arrow {
     color: white;
 }
 
-#section-8 a,
-#section-8 a:hover,
-#section-8 a:active,
-#section-8 a:visited {
-    color: #ED5343;
+@media(max-width: 768px) {
+    #section-8 a,
+    #section-8 a:hover,
+    #section-8 a:active,
+    #section-8 a:visited {
+        color: #FFFFFF;
+    }
+
+    #s8-sources {
+        font-family: 'Josefin Sans', sans-serif !important;
+        color: #FFFFFF;
+    }
+    
+    #section-8 {
+        background-color: #ED5343;
+    }
 }
 
-#section-8 {
-    background-image: url("../assets/images/remerciement.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+@media(min-width: 768px) {
+    #section-8 {
+        background-image: url("../assets/images/remerciement.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center top;
+        background-color: #ED5343;
+    }
+
+    #section-8 a,
+    #section-8 a:hover,
+    #section-8 a:active,
+    #section-8 a:visited {
+        color: #ED5343;
+    }
+
+    #s8-sources {
+        font-family: 'Josefin Sans', sans-serif !important;
+        color: #ED5343;
+    }
 }
 
 /* SOUND BUTTON */
