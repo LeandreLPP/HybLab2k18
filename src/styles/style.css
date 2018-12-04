@@ -10,6 +10,7 @@ body {
 h1, h2, h3, h4 {
     font-family: 'Walter Turncoat', cursive !important;
 }
+
 h1 {
     color: white;
     background-color: #ED7061;
@@ -84,13 +85,25 @@ video {
 
 /* SLIDE 2 */
 
-.s2-img {
-    position: fixed;
-    z-index: -1;
-    height: 100%;
-    left: 0;
-    top: 0;
+@media(max-width: 768px) {
+    .s2-img {
+        position: fixed;
+        z-index: -1;
+        width: 160%;
+        left: 0;
+        bottom: -10%;
+    }
 }
+@media(min-width: 768px) {
+    .s2-img {
+        position: fixed;
+        z-index: -1;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
 /* SLIDE 3 */
 #s3-video {
     right: 0;
