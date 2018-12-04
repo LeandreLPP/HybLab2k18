@@ -69,7 +69,10 @@ video {
 }
 
 .s1-img {
-    height: 100%;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    bottom: -10%;
 }
 
 .s1-container-img {
@@ -142,6 +145,36 @@ video {
     width: 80%;
 }
 
+/* SLIDE 8 */
+#s8-title {
+    background-color: transparent;
+    color: white;
+    font-size: 8em;
+}
+
+#s8-sources {
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: #ED5343;
+}
+
+#s8-membres {
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: white;
+}
+
+#section-8 a,
+#section-8 a:hover,
+#section-8 a:active,
+#section-8 a:visited {
+    color: #ED5343;
+}
+
+#section-8 {
+    background-image: url("../assets/images/remerciement.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* SOUND BUTTON */
 .soundButton {
     position: fixed;
@@ -150,8 +183,6 @@ video {
     height: 50px;
     width: 50px;
 }
-<<<<<<< HEAD
-=======
 
 #container { display:block; }
 
@@ -175,4 +206,3 @@ video {
         transform: rotate(0deg);
     }
 }
->>>>>>> 887da8227402807ae53d107238fc37c597a95079
