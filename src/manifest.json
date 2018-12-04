@@ -1,4 +1,17 @@
 {
-    "display":      "standalone",
-    "orientation":  "landscape"
-}
+    "short_name": "Abattoirs 2018",
+    "name": "Hyblab abattoirs 2018",
+    "icons": [
+      {
+        "src": "assets/images/sound.png",
+        "type": "image/png",
+        "sizes": "136x113"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#3367D6",
+    "display":      "fullscreen",
+    "orientation":  "landscape",
+    "scope": "/",
+    "theme_color": "#3367D6"
+  }

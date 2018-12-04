@@ -6,15 +6,16 @@
         <title>Abattoirs</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+        <link rel="manifest" href="manifest.json">
+
         <!-- Stylesheets here --->
         <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
         <link rel="stylesheet" href="styles/webslides.css"/>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/style.css"/>
-        <link rel="manifest" href="manifest.json">
     </head>
 
-    <body>
+    <body id=container>
         <article id="webslides" class="vertical">
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
             <!----------------------------------------------------------------DIAPO 1------------------------------------------------------------------------------->
@@ -48,7 +49,7 @@
                     </div>
                     <div class="offset-sm-6 col-sm-6 row">
                         <div class="col-sm-10" id="s3-content">
-                            <p class="text-justify" style="font-size: 2em;">Cet extrait d’annonce trouvée sur un site d'offres d'emploi est clair. Pour travailler dans un abattoir,
+                            <p class="text-justify" style="font-size: 2em;">Cet extrait d’annonce trouvé sur un site d'offres d'emploi est clair. Pour travailler dans un abattoir,
                                     il faut laisser de côté sa sensibilité. Ces dernières années, l’association L214 a inondé la toile de
                                     nombreuses vidéos pour dénoncer le traitement réservé aux animaux. Au point d’en oublier, peut-être, les
                                     travailleurs. Ils sont pourtant 50 000 à trimer quotidiennement pour nourrir la machine agro-alimentaire.
@@ -113,7 +114,7 @@
                     </div>
                 </div>
 
-                <video autoplay muted loop id="s3-video">
+                <video autoplay muted id="s3-video">
                     <source src="assets/videos/arrivee.mp4" type="video/mp4">
                 </video>
 
@@ -128,7 +129,7 @@
                 <div class="row">
                     <div class="col-sm-5 row">
                         <div class="col-sm-7 offset-sm-1 px-0">
-                            <h1>La voix du saigneur :</h1><br/>
+                            <h1>La voix du saigneur</h1><br/>
                         </div>
                         <div class="row offset-sm-1 col-sm-10 px-0 py-3 my-3" id="s4-content">
                             <p class="text-justify font-italic compact-text">À la saignée, les ouvriers ouvrent la carotide des porcs étourdis. Ils les vident
@@ -163,7 +164,8 @@
                             <h4 class="text-center">Gestes répétitifs à l'intensité jugée forte</h4>
                         </div>
                         <div class="col-sm-4 offset-sm-1">
-                            <img src="assets/gifs/4_repet.gif" width="100%"/>
+                            <!--<img src="assets/gifs/4_repet.gif" width="100%"/>-->
+                            <canvas id="s4-chart-repet" width="400" height="400"></canvas>
                             <h4 class="text-center">Taux de salariés exécutant des gestes peu variés</h4>
                         </div>
                     </div>
@@ -251,7 +253,7 @@
                     </div>
                     <div class="col-sm-6 offset-sm-3">
                         <img src="assets/gifs/6_nombre_cochon.gif" width="100%"/>
-                        <h4 class="text-center">Un ouvrier à la chaîne traite en moyenne 700 porcs par heure</h4>
+                        <h4 class="text-center">Un ouvrier à la chaîne traite jusqu'à 700 porcs par heure</h4>
                     </div>
                 </div>
                     
@@ -353,6 +355,7 @@
         </article>
 
         <script src="scripts/webslides.min.js"></script>
+        <script src="scripts/chart.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>    
 
