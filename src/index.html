@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Vague à lame</title>
+        <title>Vague à lames</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" href="icon.ico" />
 
@@ -21,10 +21,11 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section class="p-2 m-4 p-md-4 pb-4 mb-4">
-                <div class="row d-block d-md-none">
-                    <div class="ml-auto"></div>
-                    <div class="m-auto"></div>
-                    <img src="assets/images/Fleche_droite.png" class="img arrow p-5 mr-auto p-5" onclick="ws.goNext()"/>
+                <div class="py-3 d-flex d-md-none align-bottom" style="min-height: 80vh; flex-direction: column;">
+                    <div style="flex: 1;"></div>
+                    <div class="row">
+                        <i class="offset-6 col-6 fas fa-chevron-right text-center" style="font-size: 5em;" onclick="ws.goNext()"></i>
+                    </div>
                 </div>
             </section>
 
@@ -33,7 +34,7 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section class="p-2 m-4 p-md-4 pb-4 mb-4">
-                <div class="offset-md-6 col-md-6 mt-1 p-4" style="height: 90vh; overflow-x: hidden; overflow-y: scroll">
+                <div class="offset-md-6 col-md-6 mt-1 p-4" style="max-height: 90vh; overflow-x: hidden; overflow-y: scroll">
                     <div class="row">
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                         <div class="col-md-10">
@@ -41,7 +42,7 @@
                         </div>
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                     </div>               
-                    <div class="row py-3 my-3" id="s3-content">
+                    <div class="row py-3 my-3" id="s2-content">
                         <p class="col text-justify" style="font-size: 2em;">Cet extrait d’annonce trouvé sur un site d'offres d'emploi est clair. Pour travailler dans un abattoir,
                                 il faut laisser de côté sa sensibilité. Ces dernières années, l’association L214 a multiplié les vidéos pour dénoncer le traitement réservé aux animaux. Au point d’en oublier, peut-être, les
                                 travailleurs. Ils sont pourtant 50 000 à trimer quotidiennement pour nourrir la machine agro-alimentaire.
@@ -57,13 +58,10 @@
                             <img id="soundButtonHome" src="assets/images/sound_off.png" onclick="playSound()"/>
                         </p>
                     </div> 
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow p-5 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow p-5 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
+                </div>
+                <div class="py-3 d-inline-flex d-md-none row">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
             </section>
 
@@ -87,9 +85,9 @@
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                             <div class="col-md-10" id="s3-content">
                                 <p class="text-justify">À la base, quand je suis arrivé à l'abattoir, c'était un dépannage. Je suis mécanicien 
-                                    de base. J'ai un Bac Pro Mécanique. J'avais des galères. Je suis allé à l’abattoir car c'est la grosse boîte 
+                                    à l'origine. J'ai un Bac Pro Mécanique. J'avais des galères. Je suis allé à l’abattoir car c'est la grosse boîte 
                                     qui est à côté de chez nous. C'est un gros employeur. On est 10 000 ouvriers. La moitié des gens de ma ville
-                                    travaillent là-bas. En ce moment on commence à 4h du matin et on finit à 13h. On fait les deux huits.</p>
+                                    travaillent là-bas. En ce moment, on commence à 4h du matin et on finit à 13h. On fait les deux huits.</p>
                             </div>
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                         </div><br/>
@@ -120,13 +118,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow p-5 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow p-5 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
+                </div>
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
 
                 <video autoplay muted id="s3-video" class="d-none d-md-block">
@@ -153,20 +148,20 @@
                         <div class="offset-md-1 col-md-10 px-2 py-3 my-3" id="s4-content">
                             <p class="text-justify font-italic compact-text">À la saignée, les ouvriers ouvrent la carotide des porcs étourdis. Ils les vident
                                 de leur sang qui sera récolté pour le boudin. Ceux qui travaillent là souffrent d’une très mauvaise
-                                réputation. Y compris au sein des abattoirs. Pour Sylvain*, “<span style="font-style: normal">les gars qui travaillent dans le secteur
-                                    sale sont spéciaux. Même moi, je ne parle pas trop avec eux parce qu'ils ont une mentalité bizarre.</span>”
+                                réputation. Y compris au sein des abattoirs. Pour Sylvain*, &laquo; <span style="font-style: normal">les gars qui travaillent dans le secteur
+                                    sale sont spéciaux. Même moi, je ne parle pas trop avec eux parce qu'ils ont une mentalité bizarre.</span> &raquo;
                                 Pourtant, nous leur avons parlé.</p>
                         </div>
                         <div class="row">
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                             <div class="col-md-10" id="s4-content">
-                                <p class="text-justify compact-text pb-2 mb-2">J’ai travaillé à la saignée, surtout les premières années mais je ne veux plus y
+                                <p class="text-justify compact-text pb-2 mb-2">J’ai travaillé à la saignée, surtout les premières années, mais je ne veux plus y
                                     travailler... L’humain s’habitue à presque tout mais quand on part en vacances pour trois semaines, 
                                     quand on revient...</p>
                                 <p class="text-justify pb-2 mb-2">J’ai assisté à une éventration, à des tendons coupés, à un couteau entre les deux
                                     yeux, dans le nez. Mais les accidents sont de moins en moins nombreux.</p>
-                                <p class="text-justify">Le son est surtout métallique. Il y a 90 décibels, mais ce n'est pas compté comme
-                                    de la pénibilité parce qu’on a des bouchons d’oreille moulés. Le sang est omniprésent au début de la
+                                <p class="text-justify">Le son est surtout métallique. Il y a 90 décibels mais ce n'est pas compté comme
+                                    de la pénibilité parce qu’on a des bouchons d’oreilles moulés. Le sang est omniprésent au début de la
                                     chaîne. À l’abattage, c’est à température ambiante, on ne chauffe pas. Il y a un peu de clim’ l’été.
                                     Mais c’est toujours dans l’humidité avec les jets de lavage au sol et la vapeur pour laver les couteaux.</p>
                             </div>
@@ -198,15 +193,11 @@
                             <h4 class="text-center">Taux de salariés exécutant des gestes peu variés</h4>
                         </div>
                     </div>
-
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow p-5 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow p-5 mr-auto" onclick="ws.goNext()"/>
-                        </div>
-                    </div>
-                </div>              
+                </div>    
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
+                </div>          
                     
                 <video autoplay muted loop id="s4-video" class="d-none d-md-block">
                     <source src="assets/videos/saignee.mp4" type="video/mp4">
@@ -236,7 +227,7 @@
                             <div class="row py-3 my-3">
                                 <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                                 <div class="col-md-10" id="s5-content">
-                                    <p class="text-justify">Nous on reçoit tout ce qui est boyaux. C'est à dire la rate, l’estomac, les boyaux menus, les rosettes... On les détache de la bête et après ça part de l'autre côté.  En ce moment, on voit passer 2600 porcs par jour donc c'est une assez grosse cadence à respecter. C'est environ 400 à l'heure. Bien sûr, c'est des gestes répétitifs. C'est difficile. Normalement, on change de poste toutes les semaines. Mais généralement, nous les anciens, on tourne toujours sur les plus difficiles.</p>
+                                    <p class="text-justify">Nous, on reçoit tout ce qui est boyaux. C'est-à-dire la rate, l’estomac, les boyaux menus, les rosettes... On les détache de la bête et après ça part de l'autre côté.  En ce moment, on voit passer 2 600 porcs par jour donc c'est une assez grosse cadence à respecter. C'est environ 400 à l'heure. Bien sûr, c'est des gestes répétitifs. C'est difficile. Normalement, on change de poste toutes les semaines. Mais généralement, nous les anciens, on tourne toujours sur les plus difficiles.</p>
                                 </div>
                                 <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                                 <h3 class="offset-2 col-10">- Corine*, 9 ans à l’éviscération</h3>
@@ -244,7 +235,7 @@
                             <div class="row">
                                 <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                                 <div class="col-md-10" id="s5-content">
-                                    <p class="text-justify">J'en garde un très bon souvenir. On était une super équipe. Les boyaux, ça sent la merde mais je ne crains pas les odeurs. Après c'est vrai que le premier mois a été très compliqué physiquement car il faut que le corps s'y fasse tout simplement. J'ai eu des tendinites aux mains car je faisais toujours le même geste. J'ai passé trois semaines à ne pas dormir la nuit tellement ça me faisait mal . Puis je crois que mon corps s'est habitué.</p>
+                                    <p class="text-justify">J'en garde un très bon souvenir. On était une super équipe. Les boyaux, ça sent la merde mais je ne crains pas les odeurs. Après, c'est vrai que le premier mois a été très compliqué physiquement car il faut que le corps s'y fasse, tout simplement. J'ai eu des tendinites aux mains car je faisais toujours le même geste. J'ai passé trois semaines à ne pas dormir la nuit tellement ça me faisait mal. Puis je crois que mon corps s'est habitué.</p>
                                 </div>
                                 <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                                 <h3 class="offset-2 col-10">- Constance* a travaillé 8 mois à la boyauderie avant de devenir assistante maternelle</h3>
@@ -255,14 +246,11 @@
                                 <h4 class="text-center">Jours d'absence cumulés en une année</h4>
                             </div>
                         </div>
-
-                    <div class="container d-block d-md-none pt-3">
-                        <div class="row d-flex">
-                            <img src="assets/images/Fleche_gauche.png" class="img arrow p-5 ml-auto" onclick="ws.goPrev()"/>
-                            <div class="m-auto"></div>
-                            <img src="assets/images/Fleche_droite.png" class="img arrow p-5 mr-auto" onclick="ws.goNext()"/>
-                        </div>
                     </div>
+                </div>
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
                     
                 <video autoplay muted loop id="s5-video" class="d-none d-md-block">
@@ -291,7 +279,7 @@
                     <div class="row py-2 my-2">
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                         <div class="col-md-10" id="s6-content">
-                            <p class="text-justify">Je suis en dépièçage, dépièçage jambon. On prépare le produit pour le client. On n'a que le jambon qui arrive et après on fait un parage. Ça sent la viande la première semaine où l'on arrive. C'est pas forcément désagréable. On n'est pas dans certain secteur comme la boyauderie. On ne voit pas le dehors de toute la journée. On est enfermé.</p>
+                            <p class="text-justify">Je suis en dépièçage, dépièçage jambon. On prépare le produit pour le client. On n'a que le jambon qui arrive et après on fait un parage. Ça sent la viande la première semaine où l'on arrive. Ce n'est pas forcément désagréable. On n'est pas dans certains secteurs comme la boyauderie. On ne voit pas le dehors de toute la journée. On est enfermé.</p>
                         </div>
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                         <h3 class="col-md-10 offset-md-2">- Arthur*, trois ans et demi dans la découpe</h3>
@@ -299,7 +287,7 @@
                     <div class="row py-2 my-2">
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                         <div class="col-md-10" id="s6-content">
-                            <p class="text-justify">Il fait 3-4 °C dans l'atelier pour éviter les microbes. On a des sols adaptés, antidérapants car avec le service de nettoyage, quelques fois, il y a un peu d'eau qui reste au sol. C'est un atelier blanc, bien éclairé avec des néons donc sans lumière naturelle.</p>
+                            <p class="text-justify">Il fait 3-4 °C dans l'atelier pour éviter les microbes. On a des sols antidérapants car avec le service de nettoyage, quelques fois, il y a un peu d'eau qui reste au sol. C'est un atelier blanc, bien éclairé avec des néons, donc sans lumière naturelle.</p>
                         </div>
                         <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                         <h3 class="col-md-10 offset-md-2">- Dylan*, en apprentissage depuis un an et demi à l’abattoir</h3>
@@ -318,13 +306,10 @@
                     </div>
                 </div>
                     
-                <div class="container d-block d-md-none pt-3">
-                    <div class="row d-flex">
-                        <img src="assets/images/Fleche_gauche.png" class="img arrow p-5 ml-auto" onclick="ws.goPrev()"/>
-                        <div class="m-auto"></div>
-                        <img src="assets/images/Fleche_droite.png" class="img arrow p-5 mr-auto" onclick="ws.goNext()"/>
+                <div class="row py-3 d-inline-flex d-md-none">
+                        <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                        <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                     </div>
-                </div>
                     
                 <video autoplay muted loop id="s6-video" class="d-none d-md-block">
                     <source src="assets/videos/decoupe.mp4">
@@ -360,7 +345,7 @@
                         <div class="row">
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                             <div class="col-md-10" id="s7-content">
-                                <p class="text-justify">Ce n'est pas un travail qui me plaît. C'est un travail qui me fait vivre. Je parle rarement de mon travail autour de moi. Ce n'est pas moi qui engagerais la conversation dessus. C'est un peu répugnant pour les gens.</p>
+                                <p class="text-justify">Ce n'est pas un travail qui me plaît. C'est un travail qui me fait vivre. J'en parle rarement autour de moi. Ce n'est pas moi qui engagerais la conversation dessus. C'est un peu répugnant pour les gens.</p>
                             </div>
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                             <h3 class="col-8 offset-5">- Corine*</h3>
@@ -368,15 +353,15 @@
                         <div class="row">
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                             <div class="col-md-10" id="s7-content">
-                                <p class="text-justify">On nous tue à force de nous ignorer. Notre travail n’est pas du tout reconnu. On en rêve, on a des images, l’odeur et la cadence qui reviennent, psychologiquement c’est difficile. Moi j’ai pris des cachets pour dormir. Quand ils partent en retraite, tous mes collègues ont une pathologie. J’ai deux enfants et je voulais qu’ils fassent tout, sauf ça. Surtout pas travailler à l’abattoir.</p>
-                            </div>
+                                <p class="text-justify">On nous tue à force de nous ignorer. Notre travail n’est pas du tout reconnu. On en rêve, on a des images, l’odeur et la cadence qui reviennent. Psychologiquement, c’est difficile. Moi j’ai pris des cachets pour dormir. Quand ils partent en retraite, tous mes collègues ont une pathologie. J’ai deux enfants et je voulais qu’ils fassent tout, sauf ça. Surtout pas travailler à l’abattoir.</p>
+                            </div>adaptés
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                             <h3 class="col-8 offset-5">- Christian*</h3>
                         </div>
                         <div class="row">
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-left"></i></div>
                             <div class="col-md-10" id="s7-content">
-                                <p class="text-justify">Je parle de mon travail autour de moi. Tous mes voisins le savent. Ils me disent : "Oh les pauvres animaux machin !". Je leur réponds : "Oui mais bon, il faut bien que tu en manges!" Après je leur dis, ça c'est ce qu'ils nous font voir à la télé. Il ne faut pas mettre tous les abattoirs dans le même panier, ou tous les employés d'abattoirs dans le même sac. On n’est pas tous des enculés !</p>
+                                <p class="text-justify">Je parle de mon travail autour de moi. Tous mes voisins le savent. Ils me disent : &laquo; Oh les pauvres animaux machin ! &raquo; Je leur réponds : &laquo; Oui mais bon, il faut bien que tu en manges ! &raquo; Après je leur dis, ça c'est ce qu'ils nous font voir à la télé. Il ne faut pas mettre tous les abattoirs dans le même panier, ou tous les employés d'abattoirs dans le même sac. On n’est pas tous des enculés !</p>
                             </div>
                             <div class="col-md-1 d-none d-md-block"><i class="fas fa-quote-right"></i></div>
                             <h3 class="col-8 offset-5">- Sylvain*</h3>
@@ -412,6 +397,22 @@
                             <h4 class="text-center">Filières dans lesquelles les salariés sont plus touchés par la dépressivité</h4>
                         </div>
                     </div>
+
+                    <div class="d-md-none d-block row">
+                        <div class="col-12">
+                            <img src="assets/gifs/7_genres.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Genres et âges des salariés les plus touchés par la dépressivité</h4>
+                        </div>
+                        <div class="col-12">
+                            <img src="assets/gifs/7_race.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Filières dans lesquels les salariés sont plus plus touchés par la dépressivité</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
+                    <i class="col-6 fas fa-chevron-right text-center" style="font-size: 5em" onclick="ws.goNext()"></i>
                 </div>
                     
                 <video autoplay muted loop id="s7-video" class="d-none d-md-block">
@@ -444,10 +445,10 @@
                             
                             <p>Il a été déterré par Virginie Vilar et Geoffroy Le Guilcher, l'histoire complète sur <a href="https://streetpress.com/sujet/1486376706-rapport-censure-abattoirs-bretons"><i>Street Press</i></a></p>
                            
-                            <p><i>Steak Machine</i>, enquête en immersion dans un abattoir breton par Geoffroy Le Guilcher, publié le 3 Février 2017</p>
+                            <p><i>Steak Machine</i>, enquête en immersion dans un abattoir breton par Geoffroy Le Guilcher, publié le 3 février 2017</p>
                         
                             <p><i><a href="http://www.assemblee-nationale.fr/14/rap-enq/r4038-ti.asp">Rapport d'enquête parlementaire</a>, sur les conditions d'abattage des animaux de boucherie dans les abattoirs français</i>,
-                            Président Olivier Falorni, Rapporteur Jean-Yves Caullet, le 20 Septembre 2016</p>
+                            Président Olivier Falorni, Rapporteur Jean-Yves Caullet, le 20 septembre 2016</p>
                         </div>
                         <div class="col-md-3 offset-md-5">
                             <div class="row d-block d-md-none">
@@ -480,11 +481,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="container d-block d-md-none pt-3">
-                    <div class="row d-flex">
-                        <img src="assets/images/Fleche_gauche.png" class="img arrow p-5 ml-auto mr-auto" onclick="ws.goPrev()"/>
-                        <div class="m-auto"></div>
-                    </div>
+
+                <div class="row py-3 d-inline-flex d-md-none">
+                    <i class="col-6 fas fa-chevron-left text-center" style="font-size: 5em" onclick="ws.goPrev()"></i>
                 </div>
             </section>
         </article>
