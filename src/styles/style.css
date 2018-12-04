@@ -141,6 +141,10 @@ video {
     }
 }
 
+img.arrow {
+    height: 7em;
+}
+
 /* SLIDE 3 */
 #s3-video {
     right: 0;
