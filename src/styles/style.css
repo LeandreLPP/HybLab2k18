@@ -30,7 +30,7 @@ p {
 }
 
 section {
-    padding: 0px !important;
+    padding: 48px !important;
 }
 
 .fa-quote-left,
@@ -57,6 +57,13 @@ video {
 }
 
 /* SLIDE 1 */
+#section-1 {
+    background-image: url("../assets/images/titre.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
 #title1 {
     font-size: 10em;
     color: #ED7061;
@@ -67,10 +74,6 @@ video {
     font-size: 10em;
     color: black;
     background-color: transparent;
-}
-
-.s1-img {
-    height: 100%;
 }
 
 .s1-container-img {
@@ -153,6 +156,36 @@ video {
     right: -10%;
     bottom: 0;
     width: 80%;
+}
+
+/* SLIDE 8 */
+#s8-title {
+    background-color: transparent;
+    color: white;
+    font-size: 8em;
+}
+
+#s8-sources {
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: #ED5343;
+}
+
+#s8-membres {
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: white;
+}
+
+#section-8 a,
+#section-8 a:hover,
+#section-8 a:active,
+#section-8 a:visited {
+    color: #ED5343;
+}
+
+#section-8 {
+    background-image: url("../assets/images/remerciement.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* SOUND BUTTON */

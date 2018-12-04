@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="styles/webslides.css"/>
         <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="stylesheet" href="styles/style.css"/>
+        <link rel="manifest" href="manifest.json">
     </head>
 
     <body>
@@ -20,15 +21,8 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section>
-                <div class="s1-container-img">
-                    <div style="flex: 1"></div>
-                    <img src="assets/images/titre.png" class="s1-img" />
-                    <div style="flex: 1"></div>
-                </div>
-                <h1 class="text-center" id="title1">LA VIE</h1>
-                <h1 class="text-center" id="title2">EN ROSE</h1>
-
-                <p></p>
+                <h1 class="text-center" id="title1">VAGUE</h1>
+                <h1 class="text-center" id="title2">À LAMES</h1>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -102,12 +96,12 @@
 
                     <div class="col-sm-6 row">
                         <div class="col-sm-4 offset-sm-2">
-                            <img src="assets/gifs/6_nombre_cochon.gif" width="100%"/>
-                            <h4 class="text-center">Taux de salarié ayant eu à se lever tôt (avant 5h du matin)</h4>
+                            <img src="assets/gifs/3_horaires_alt.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Taux de salarié ayant eu des horaires d'alternant</h4>
                         </div>
                         <div class="col-sm-4 offset-sm-1">
-                            <img src="assets/gifs/6_nombre_cochon.gif" width="100%"/>
-                            <h4 class="text-center">Taux de salarié ayant eu des horaires d'alternant</h4>
+                            <img src="assets/gifs/3_horaires_lever.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Taux de salarié ayant eu à se lever tôt (avant 5h du matin)</h4>
                         </div>
                     </div>
                 </div>
@@ -116,7 +110,7 @@
                     <source src="assets/videos/arrivee.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
+                <img class="soundButton d-sm-none" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -125,12 +119,12 @@
 
             <section class="py-0 my-0">  
                 <div class="row">
-                    <div class="col-sm-5 row">
-                        <div class="col-sm-7 offset-sm-1 px-0">
+                    <div class="col-sm-5">
+                        <div class="col-sm-7 px-2 offset-sm-1">
                             <h1>La voix du saigneur</h1><br/>
                         </div>
-                        <div class="row offset-sm-1 col-sm-10 px-0 py-3 my-3" id="s4-content">
-                            <p class="text-justify font-italic">À la saignée, les ouvriers ouvrent la carotide des porcs étourdis. Ils les vident
+                        <div class="offset-sm-1 col-sm-10 px-2 py-3 my-3" id="s4-content">
+                            <p class="text-justify font-italic compact-text">À la saignée, les ouvriers ouvrent la carotide des porcs étourdis. Ils les vident
                                 de leur sang qui sera récolté pour le boudin. Ceux qui travaillent là souffrent d’une très mauvaise
                                 réputation. Y compris au sein des abattoirs. Pour Sylvain*, “<span style="font-style: normal">les gars qui travaillent dans le secteur
                                     sale sont spéciaux. Même moi, je ne parle pas trop avec eux parce qu'ils ont une mentalité bizarre.</span>”
@@ -138,8 +132,8 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-1"><i class="fas fa-quote-left"></i></div>
-                            <div class="col" id="s4-content">
-                                <p class="text-justify pb-2 mb-2">J’ai travaillé à la saignée, surtout les premières années mais je ne veux plus y
+                            <div class="col-sm-10" id="s4-content">
+                                <p class="text-justify compact-text pb-2 mb-2">J’ai travaillé à la saignée, surtout les premières années mais je ne veux plus y
                                     travailler... L’humain s’habitue à presque tout mais quand on part en vacances pour trois semaines, 
                                     quand on revient...</p>
                                 <p class="text-justify pb-2 mb-2">J’ai assisté à une éventration, à des tendons coupés, à un couteau entre les deux
@@ -151,19 +145,19 @@
                             </div>
                             <div class="col-sm-1"><i class="fas fa-quote-right"></i></div>
                         </div><br/>
-                        <div class="row">
-                            <h3 class="col-sm-8 offset-sm-4">- Christian*, a tout fait en 29 ans à l’abattoir</h3>
+                        <div class="row col-sm-12">
+                            <h3 class="col-sm-10 offset-sm-2">- Christian*, a tout fait en 29 ans à l’abattoir</h3>
                         </div>
                     </div>
     
                     <div class="col-sm-7 row">
                         <div class="col-sm-4 offset-sm-1">
-                            <img src="assets/gifs/6_nombre_cochon" width="100%"/>
-                            <h4 class="text-center">Gestes répétitifs à l'intensité jugée forte</h4>
+                            <img src="assets/gifs/4_nombre_cochon.gif" class="gif" width="100%"/>
+                            <h4 class="text-center">Un ouvrier à la chaîne traite jusqu'à 700 porcs par heure</h4>
                         </div>
                         <div class="col-sm-4 offset-sm-1">
-                            <!--<img src="assets/gifs/4_repet.gif" width="100%"/>-->
-                            <canvas id="s4-chart-repet" width="400" height="400"></canvas>
+                            <img src="assets/gifs/4_repet.gif" class="gif" width="100%"/>
+                            <!--<canvas id="s4-chart-repet" width="400" height="400"></canvas>-->
                             <h4 class="text-center">Taux de salariés exécutant des gestes peu variés</h4>
                         </div>
                     </div>
@@ -173,7 +167,7 @@
                     <source src="assets/videos/saignee.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>            
+                <img class="soundButton d-sm-none" src="assets/images/sound_off.png" onclick="playSound()"/>            
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -183,7 +177,7 @@
             <section>
                 <div class="offset-sm-4 col-sm-6 row">
                     <div class="col-sm-7 offset-sm-1 px-0">
-                        <h1>Very Bad Tripes</h1><br/>
+                        <h1>Viscères au poing</h1><br/>
                     </div>
                     <div class="row offset-sm-1 col-sm-10 px-0">
                         <p class="text-justify font-italic">Après la saignée, d’autres ouvriers vident les porcs. Sur la chaîne, chacun exécute un ou deux gestes.</p>
@@ -210,7 +204,7 @@
                     <source src="assets/videos/evisceration.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
+                <img class="soundButton d-sm-none" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -220,7 +214,7 @@
             <section>
                 <div class="col-sm-6 row">
                     <div class="col-sm-7 offset-sm-1 px-0">
-                        <h1>Couper, Décaler</h1><br/>
+                        <h1>Sur le fil</h1><br/>
                     </div>
                     <p class="row offset-sm-1 text-justify font-italic">
                         Les ouvriers de découpe reçoivent les demi-porcs refroidis pour les dépiècer.
@@ -250,8 +244,8 @@
                         <h3 class="col-sm-10 offset-sm-2">- Arthur*</h3>
                     </div>
                     <div class="col-sm-6 offset-sm-3">
-                        <img src="assets/gifs/6_nombre_cochon.gif" width="100%"/>
-                        <h4 class="text-center">Un ouvrier à la chaîne traite jusqu'à 700 porcs par heure</h4>
+                        <img src="assets/gifs/6_cercle.gif" class="gif" width="100%"/>
+                        <h4 class="text-center">Gestes répétitifs à l'intensité jugée forte</h4>
                     </div>
                 </div>
                     
@@ -259,7 +253,7 @@
                     <source src="assets/videos/decoupe.mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
+                <img class="soundButton d-sm-none" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -271,7 +265,7 @@
                     <div class="col-sm-5">
                         <div class="row">
                             <div class="col-sm-7 offset-sm-1">
-                                <h1>Retour à bon porc</h1><br/>
+                                <h1>Le porc de l'angoisse</h1><br/>
                             </div>
                         </div>
                         <div class="row">
@@ -318,12 +312,12 @@
     
                     <div class="col-sm-7 row">
                         <div class="col-sm-4 offset-sm-1">
-                            <img src="assets/gifs/7_genres.gif" width="100%"/>
-                            <img src="assets/gifs/7_age.gif" width="100%"/>
+                            <img src="assets/gifs/7_genres.gif" class="gif" width="100%"/>
+                            <img src="assets/gifs/7_age.gif" class="gif" width="100%"/>
                             <h4 class="text-center">Genres et âges des salariés les plus touchés par la dépressivité</h4>
                         </div>
                         <div class="col-sm-4 offset-sm-1">
-                            <img src="assets/gifs/7_race.gif" width="100%"/>
+                            <img src="assets/gifs/7_race.gif" class="gif" width="100%"/>
                             <h4 class="text-center">Filières dans lesquels les salariés sont plus plus touchés par la dépressivité</h4>
                         </div>
                     </div>
@@ -333,7 +327,7 @@
                     <source src="assets/videos/repas.mp4" type="video/mp4">
                 </video>
 
-                <img class="soundButton" src="assets/images/sound_off.png" onclick="playSound()"/>
+                <img class="soundButton d-sm-none" src="assets/images/sound_off.png" onclick="playSound()"/>
             </section>
 
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
@@ -341,7 +335,56 @@
             <!------------------------------------------------------------------------------------------------------------------------------------------------------>
 
             <section>
-                <h1>Conclusion</h1>
+                <div class="col-sm-10 offset-sm-1">
+                    <div class="row">
+                        <div class="col-sm-3 my-auto">
+                            <img src="assets/logos/hyblab.png"/>
+                        </div>
+                        <div class="col-sm-9">
+                            <h1 id="s8-title" class="text-right py-5">Remerciements</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 text-justify">
+                            <h2 id="s8-sources" class="py-3">SOURCES</h2>
+                            <p><i>État de santé des salariés de la filière viande du régime agricole en Bretagne</i>,
+                                <a href="http://opac.invs.sante.fr/doc_num.php?explnum_id=3533">rapport commandé par la 
+                            MSA puis enterré</a></p>
+                            
+                            <p>Il a été déterré par Virginie Vilar et Geoffroy Le Guilcher, l'histoire complète sur <a href="https://streetpress.com/sujet/1486376706-rapport-censure-abattoirs-bretons"><i>Street Press</i></a></p>
+                           
+                            <p><i>Steak Machine</i>, enquête en immersion dans un abattoir breton par Geoffroy Le Guilcher, publié le 3 Février 2017</p>
+                        
+                            <p><i><a href="http://www.assemblee-nationale.fr/14/rap-enq/r4038-ti.asp">Rapport d'enquête parlementaire</a>, sur les conditions d'abattage des animaux de boucherie dans les abattoirs français</i>,
+                            Président Olivier Falorni, Rapporteur Jean-Yves Caullet, le 20 Septembre 2016</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-5">
+                            <h2 id="s8-membres" class="text-right py-3">MEMBRES DE L'ÉQUIPE</h2>
+                            <p class="text-right py-3" style="color: white;">
+                                                Ostianne <b>ARMINJON</b><br/>
+                                                Manon <b>BELAÏCHE</b><br/>
+                                                Maxence <b>DETANTE</b><br/>
+                                                Joséphine <b>LASCAULT</b><br/>
+                                                Léandre <b>LE POLLES--POTIN</b><br/>
+                                                William <b>MOUCHÈRE</b><br/>
+                                                Valentin <b>PINEAU</b><br/>
+                                                Antoine <b>PIZON</b><br/>
+                                                Anaïs <b>RIBOD</b><br/>
+                                                Caroline <b>TRAN</b><br/></p>
+                        </div>
+                    </div>
+                    <div class="row py-5">
+                        <div class="offset-sm-6 col-sm-4 my-auto">
+                            <img src="assets/logos/ecoles.png"/>
+                        </div>
+                        <div class="col-sm-1 my-auto">
+                            <a href="https://creativecommons.org/licenses/by/3.0/fr/"><img src="assets/logos/cc.png"/></a>
+                        </div>
+                        <div class="col-sm-1 my-auto">
+                            <a href="https://opensource.org/licenses/MIT"><img src="assets/logos/opensource.png"/></a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </article>
 
