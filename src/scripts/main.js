@@ -16,6 +16,13 @@ function _hide(htmlCollection, bool, tag) {
     }
 }
 
+function _hide_gif(htmlCollection, bool, clazz) {
+    var videos = htmlCollection.getElementsByClassName(clazz);
+    for(var i = 0; i < videos.length; i++) {
+        videos[i].hidden = bool;
+    }
+}
+
 function hide(htmlCollection, bool) {
     _hide(htmlCollection, bool, "h1");
     _hide(htmlCollection, bool, "img");
@@ -32,18 +39,25 @@ ws.slides.forEach(element => {
 
 // Show back previous slide video after it as been hidden
 ws.el.addEventListener('ws:slide-will-change', function(e) {
-    //console.log('slide-will-change');
+    console.log('slide-will-change');
     //console.log(e.detail);
     hide(document, true);
     var num = e.detail.currentSlide0;
     var section = document.getElementById("section-" + num);
     if(section !== undefined){
         hide(section, false);
+        _hide_gif(section, true, "gif");
+        setTimeout(function(){ _hide_gif(section, false, "gif"); }, 500);
     }
 });
 
 // ws.el.addEventListener('ws:slide-change', function(e) {
 //     console.log('slide-change');
+//     var num = e.detail.currentSlide;
+//     var section = document.getElementById("section-" + num);
+//     if(section !== undefined){
+//         _hide_gif(section, false, "gif");
+//     }
 // });
 
 function playSound(){
