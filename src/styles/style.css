@@ -56,6 +56,13 @@ video {
 }
 
 /* SLIDE 1 */
+#section-1 {
+    background-image: url("../assets/images/titre.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
 #title1 {
     font-size: 10em;
     color: #ED7061;
@@ -66,13 +73,6 @@ video {
     font-size: 10em;
     color: black;
     background-color: transparent;
-}
-
-.s1-img {
-    position: relative;
-    max-height: 100%;
-    max-width: 100%;
-    bottom: -10%;
 }
 
 .s1-container-img {
