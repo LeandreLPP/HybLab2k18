@@ -80,10 +80,12 @@ function setSoundImage(bool){
   if(bool){
     for(var i = 0; i < buttons.length; i++){
       buttons[i].src = "assets/images/sound.png";
+      document.getElementById("soundButtonHome").src = "assets/images/sound.png";
     }
   }else{
     for(var i = 0; i < buttons.length; i++){
       buttons[i].src = "assets/images/sound_off.png";
+      document.getElementById("soundButtonHome").src = "assets/images/sound_off.png";
     }
   }
 }
